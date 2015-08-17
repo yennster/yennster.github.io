@@ -1,17 +1,52 @@
 ---
 layout: default
+title: "Home"
 ---
-<!-- Posts -->
-<ul id="posts">
 
-	{% for post in paginator.posts %}
+<!-- The main content -->
+<div class="row">
 
-	  <li class="post">
-	  	<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a></h2>
-	  	<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
-	  	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
-	  </li>
-
+  <!-- The posts -->
+  <div class="col-md-12">
+    {% for post in paginator.posts %}
+    <article class="box" id="{{ post.title }}">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h2 class="title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+          <span><p class="lead">{{ post.date | date:'%B %d, %Y' | replace:' 0',' ' }}</p>
+              {{ post.content }}</span>
+        </div>
+      </div>
+    </article>
     {% endfor %}
+  </div>
+    
 
-</ul>
+<!-- Paginator stuff -->
+<div class="text-center">
+  {% if paginator.total_pages > 1 %}
+  <ul class="pagination">
+    {% if paginator.previous_page %}
+    <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+    {% else %}
+    <li class="disabled"><a href="#">&laquo; Prev</a>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+      <li class="active"><a href="#">{{ page }}</a></li>
+      {% elsif page == 1 %}
+      <li><a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+      {% else %}
+      <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+      {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+      <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+      {% else %}
+      <li class="disabled"><a href="#">Next &raquo;</a href="#"></li>
+      {% endif %}
+  </ul>
+  {% endif %}
+</div>

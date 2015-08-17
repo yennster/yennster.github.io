@@ -1,0 +1,29 @@
+<div class="navbar navbar-inverse">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+  <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav">
+      <li {% if page.title == 'Home' %} class="active" {% endif %} >
+        <a href="/">Home</a>
+      </li>
+      <li {% if page.title == 'About Me' %} class="active" {% endif %} >
+        <a href="/aboutme.html">About Me</a>
+      </li>
+      <li {% if page.title == 'Resume' %} class="active" {% endif %} >
+          <a href="/resume.html">Resume</a>        
+      </li>
+    <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Other<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/">This</a></li>
+            <li><a href="/">That</a></li>
+          </ul>
+        </li>
+       </ul>
+  </div>
+</div>
