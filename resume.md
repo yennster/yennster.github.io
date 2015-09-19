@@ -2,4 +2,6 @@
 layout: post
 title: "Resume"
 ---
-<iframe src="/files/JPlunkettResume.pdf"></iframe>
+<div class="fluidMedia">
+    <iframe src="/files/Jennifer-Plunkett-Resume.pdf" frameborder="0"> </iframe>
+</div>
