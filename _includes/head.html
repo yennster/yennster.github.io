@@ -1,48 +1,30 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-    <link rel="icon" type="image/x-icon" href="/favicon.ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="/favicon.ico/iconcubeorange-152-17061.png">
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="/favicon.ico/iconcubeorange-144-17061.png">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/favicon.ico/iconcubeorange-152-17061.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon.ico/iconcubeorange-144-17061.png">
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/favicon.ico/iconcubeorange-120-17061.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/favicon.ico/iconcubeorange-114-17061.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/favicon.ico/iconcubeorange-72-17061.png">
-    <link rel="apple-touch-icon-precomposed" href="/favicon.ico/iconcubeorange-57-17061.png">
-    <link rel="icon" href="/favicon.ico/iconcubeorange-32-17061.png" sizes="32x32">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     
-    <!-- <\!-- Bootstrap Glyphicons -\-> -->
-    <!-- <link rel="stylesheet" href="/css/bootstrap-glyphicons.css"> -->
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-    <!-- Bootswatch theme -->
-    <link rel="stylesheet" href="/css/bootstrap.css" media="screen"/>
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
 
-    <!-- JQuery for dropdowns and such -->
-    <script src="/js/jquery-2.1.0.min.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
 
-    <!-- Latest compiled and minified JavaScript for Bootstrap -->
-    <script src="/js/bootstrap.min.js"></script>
+  <!-- Icons -->
+<!--  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png"> -->
+  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
 
-    <!-- Dependency for calendar js -->
-    <script src="/js/date.js"></script>
-
-    <!-- Include calendar js -->
-    <script src="/js/calendar.js"></script>
-
-    <!-- JS for Office image -->
-    <script src="js/modernizr.js"></script>
-    
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
-
-    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    
-    <!-- <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}"> -->
-    <!-- <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"> -->
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>

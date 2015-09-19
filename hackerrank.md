@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Home
+title: Hacker Rank
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% for post in site.categories.hackerrank %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">

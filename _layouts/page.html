@@ -1,14 +1,25 @@
 ---
 layout: default
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date: "%B %-d, %Y" }}</span>
+  {{ content }}
+</div>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
-
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date: "%B %-d, %Y" }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
 </div>
