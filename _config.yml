@@ -4,7 +4,7 @@ tagline:             'The University of Texas at Austin, Class of 2017'
 description:         "BS Computer Engineering, The University of Texas at Austin, Class of 2017"
 url:                 jennyplunkett.me
 baseurl:             ''
-paginate:            5
+paginate:            1
 
 # About/contact
 author:
