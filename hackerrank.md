@@ -12,8 +12,13 @@ title: Hacker Rank
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
-
+    <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}
+      &nbsp;&nbsp;|&nbsp;&nbsp;Tagged:
+      {% for tag in post.tags %}
+        
+        <a href="/tag/{{ tag }}">{{ tag }}</a>
+      {% endfor %}
+      </span>
     {{ post.content }}
   </div>
   {% endfor %}
