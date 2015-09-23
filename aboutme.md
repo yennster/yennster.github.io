@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: About
+title: About Me
 ---
 
 <p class="message">
