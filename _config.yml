@@ -6,7 +6,6 @@ url:                 jennyplunkett.me
 baseurl:             ''
 paginate:            5
 permalink: /:categories/:title
-
 excerpt_separator: ""
 
 # About/contact
