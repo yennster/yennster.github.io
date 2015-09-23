@@ -13,12 +13,15 @@ title: Hacker Rank
     </h1>
 
     <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}
-      &nbsp;&nbsp;|&nbsp;&nbsp;<i class="fa fa-tag"></i>
+      &nbsp;|&nbsp;&nbsp;<i class="fa fa-tag"></i>
       {% for tag in post.tags %}
       <a href="/tag/{{ tag }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
       {% endfor %}
       </span>
-    {{ post.content }}
+		{{ post.content | split:'<!--break-->' | first }}
+		{% if post.content contains '<!--break-->' %}
+			<small><a href="{{ post.url }}">read more</a></small>
+		{% endif %}
   </div>
   {% endfor %}
 </div>

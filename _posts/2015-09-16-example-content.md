@@ -7,13 +7,13 @@ tags:
 - example
 - test
 ---
-Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+Lorem ipsum dolor sit amet, consectetur <a href="#">adipiscing elit</a>. Nunc eget fringilla risus. Nulla posuere magna rutrum felis dapibus, sit amet iaculis tortor accumsan. Aliquam ultricies id lacus quis dapibus. Praesent aliquet id sem at auctor. Proin suscipit justo interdum, semper tortor et, varius tortor. 
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+> Donec eget velit vel orci vehicula elementum quis in felis. Morbi dictum et leo ac rutrum. Donec quam tortor, mollis sit amet nibh sit amet, tempus ornare metus. Aenean turpis eros, posuere et interdum nec, aliquam non ex. Mauris facilisis risus non vehicula posuere. 
 
 Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
 
-<!--more-->
+<!--break-->
 
 ## Inline HTML elements
 
