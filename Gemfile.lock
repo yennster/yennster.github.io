@@ -1,0 +1,12 @@
+GEM
+  specs:
+    jekyll-paginate (1.1.0)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  jekyll-paginate
+
+BUNDLED WITH
+   1.10.6
