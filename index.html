@@ -20,7 +20,9 @@ title: Home
       </span>
 		{{ post.content | split:'<!--break-->' | first }}
 		{% if post.content contains '<!--break-->' %}
-			<small><a href="{{ post.url }}">read more</a></small>
+      <div align="center">
+        <a href="{{ post.url }}" alt="Read More"><i class="fa fa-chevron-down"></i></a>
+      </div>
 		{% endif %}
   </div>
   {% endfor %}

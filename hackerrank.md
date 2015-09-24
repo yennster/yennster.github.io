@@ -2,6 +2,7 @@
 layout: default
 title: Hacker Rank
 ---
+>Various snippets of code from my <a href="https://www.hackerrank.com/yennster">Hacker Rank</a> Challenge solutions.
 
 <div class="posts">
   {% for post in site.categories.hackerrank %}
@@ -20,7 +21,9 @@ title: Hacker Rank
       </span>
 		{{ post.content | split:'<!--break-->' | first }}
 		{% if post.content contains '<!--break-->' %}
-			<small><a href="{{ post.url }}">read more</a></small>
+          <div align="center">
+            <a href="{{ post.url }}" alt="Read More"><i class="fa fa-chevron-down"></i></a>
+          </div>
 		{% endif %}
   </div>
   {% endfor %}
