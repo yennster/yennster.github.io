@@ -3,8 +3,12 @@ layout: default
 title: Home
 ---
 
+<p class="message">
+  Want to learn more about me? <a href="/resume.html">View my resume!</a>
+</p>
+
 <div class="posts">
-  {% for post in site.categories.posts %}
+  {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
@@ -44,4 +48,3 @@ title: Home
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
-

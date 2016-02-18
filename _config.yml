@@ -1,12 +1,13 @@
 # Setup
 title:               Jenny Plunkett
-tagline:             'The University of Texas at Austin, Class of 2017'
+tagline:             'The University of Texas at Austin'
 description:         "BS Computer Engineering, The University of Texas at Austin, Class of 2017"
 url:                 jennyplunkett.me
 baseurl:             ''
-paginate:            5
-permalink: /:categories/:title
+paginate:            3
+paginate_path: "/page:num/"
 excerpt_separator: ""
+post_dirs: false
 
 # About/contact
 author:
