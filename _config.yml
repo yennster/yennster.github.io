@@ -5,7 +5,7 @@ description:         "BS Computer Engineering, The University of Texas at Austin
 url:                 jennyplunkett.me
 baseurl:             ''
 gems:                [jekyll-paginate]
-paginate:            3
+paginate:            5
 paginate_path:       "/page:num/"
 excerpt_separator:   ""
 post_dirs:           false
