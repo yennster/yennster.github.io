@@ -9,7 +9,7 @@ title: About Me
 
 ## Jenny Plunkett
 Bachelor of Science in Computer Engineering  
-The University of Texas at Austin, Expected May 2017
+The University of Texas at Austin, Expected May 2018
 
 ### My Involvement
 President (Summer 2015 - Current): [IEEE Computer Society](http://ieeecs.ece.utexas.edu)  
