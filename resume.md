@@ -2,7 +2,7 @@
 layout: resume
 title: "Resume"
 ---
-<a href="/files/Jennifer-Plunkett-Resume.pdf">Download for Mobile</a>
+[Download for Mobile](/files/Jennifer-Plunkett-Resume.pdf)
 <div class="fluidMedia">
     <iframe src="/files/Jennifer-Plunkett-Resume.pdf" frameborder="0"> </iframe>
 </div>
