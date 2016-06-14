@@ -9,6 +9,10 @@ paginate:            5
 paginate_path:       "/page:num/"
 excerpt_separator:   ""
 post_dirs:           false
+gems:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
 
 # About/contact
 author:
