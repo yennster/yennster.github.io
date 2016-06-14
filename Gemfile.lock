@@ -3,7 +3,6 @@ GEM
     jekyll-paginate (1.1.0)
     
 gem 'jekyll-paginate'
-gem 'jekyll-redirect-from'
 
 PLATFORMS
   x64-mingw32
