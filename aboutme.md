@@ -1,6 +1,7 @@
 ---
 layout: resume
 title: About Me
+permalink: aboutme/
 ---
 
 <p class="message">
