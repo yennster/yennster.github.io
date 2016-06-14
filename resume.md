@@ -1,8 +1,6 @@
 ---
 layout: resume
 title: "Resume"
-redirect_to:
-  - /resume
 ---
 
 <script>
