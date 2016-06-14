@@ -1,7 +1,7 @@
 ---
 layout: resume
 title: "Resume"
-redirect_from:
+redirect_to:
   - /resume
 ---
 
