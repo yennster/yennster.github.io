@@ -22,7 +22,7 @@ copyright: jenny plunkett
 intro: true        # Tip: Remove the span from site_heading if intro is set to true
 # This will be displayed in your intro
 short_bio: >
-    Computer Engineering Undergraduate, The University of Texas at Austin
+    Computer Engineering Undergraduate, UT Austin
 
 permalink: /:title
 
