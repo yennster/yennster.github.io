@@ -67,6 +67,14 @@ img.blur:focus, img.blur:hover {
 .center{
     text-align: center;
 }
+.image-wrapper {
+    text-align: center;
+    .image-caption {
+        font-size: $base-font-size / 1.2;
+        color: $medium-gray-color;
+        margin-top: 0px;
+    }
+}
 
 /* Intro
 * * * * * * * * * * * */
