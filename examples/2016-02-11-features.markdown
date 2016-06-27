@@ -1,0 +1,17 @@
+---
+---
+This is <span class="capsule">accent</span> a minimal, mobile friendly theme for <span class="capsule">Jekyll</span>
+
+It features:
+
+1. Customizable [accent](/documentation)
+2. Comments with Disqus
+3. [Permalinks](/testing) for headers
+4. [Guest Posts](/guest-posts)
+5. [Author's Page](/about)
+6. Author's Profile Picture, Short Bio.
+7. Pagination using `jekyll-paginate`
+8. [Syntax Highlighting](/documentation) for code
+9. [RSS Feed](/feed.xml)
+10. [Google Analytics](/documentation)
+11. A [404](/404) page.

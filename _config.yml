@@ -1,16 +1,89 @@
-# Setup
-title:               Jenny Plunkett
-tagline:             'The University of Texas at Austin'
-description:         "BS Computer Engineering, The University of Texas at Austin"
-url:                 jennyplunkett.me
-baseurl:             ''
-gems:                [jekyll-paginate]
-paginate:            5
-paginate_path:       "/page:num/"
-excerpt_separator:   ""
-post_dirs:           false
+# User Settings | Edit there as per required
 
-# About/contact
-author:
-  name:              Jenny Plunkett
-  email:             jenny@jennyplunkett.me
+title: jenny plunkett
+url: "http://jennyplunkett.me"
+baseurl: ""
+
+# This will show up at the top of index page
+site_heading: >
+    jenny <span class="faded">plunkett</span>
+
+email: jplunkett@utexas.edu
+author: Jenny Plunkett
+# This description will show up in google search results
+# (for index page) etc.
+description: >
+    Jenny Plunkett's Website
+
+# This will what will show against &copy; in the footer
+copyright: jenny plunkett
+# Toggle your short bio, which will displayed on your index page
+# Just toggle it and run jekyll again to see
+intro: true        # Tip: Remove the span from site_heading if intro is set to true
+# This will be displayed in your intro
+short_bio: >
+    Computer Engineering Undergraduate, The University of Texas at Austin
+
+permalink: /:title
+
+# Comments are powered by disqus
+comments: false
+
+# keep about_stub roughly 12 words long for best results
+# This will show up at the bottom of each post
+# Note that about_footer should be true if you want
+# to see author information at the bottom of each post
+about_stub: >
+    Computer Engineering Undergraduate, The University of Texas at Austin
+
+about_footer: true
+
+twitter_username: yennster57
+github_username: yennster
+facebook_id: jennymplunkett
+
+favicon: true
+favicon_location: "/favicon.ico"
+
+profile_picture: "images/me.png"
+paginate: 5
+paginate_path: "/page/:num"
+tracking_id: UA-77553527-4 # GA Tracking ID
+
+# Social Stuff | open graph and twitter cards
+og_image: "images/me.png" # This will show in facebook thumbnails
+twitter_image: "images/me.png" # This will show in twitter cards
+
+####################################
+####################################
+####################################
+### Build Settings | Don't Touch ###
+####################################
+####################################
+####################################
+
+markdown: kramdown
+
+gems:
+    - jekyll-paginate
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+# Scopes
+defaults:
+    -
+        scope:
+            path:   ""
+            type:   "pages"
+        values:
+            layout: "page"
+    -
+        scope:
+            path:   ""
+            type:   "posts"
+        values:
+            layout: "post"
+
+exclude: [vendor] # For travis ci
