@@ -24,7 +24,7 @@ intro: true        # Tip: Remove the span from site_heading if intro is set to t
 short_bio: >
     Computer Engineering Undergraduate, UT Austin
 
-permalink: /:title/
+permalink: /:title
 
 # Comments are powered by disqus
 comments: false
@@ -45,7 +45,7 @@ facebook_id: jennymplunkett
 favicon: true
 favicon_location: "/favicon.ico"
 
-profile_picture: "images/me.png"
+profile_picture: "/images/me.png"
 paginate: 6
 paginate_path: "/page/:num"
 tracking_id: UA-77553527-4 # GA Tracking ID
