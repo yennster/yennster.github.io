@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/yennster
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jennyplunkett.me
+  * I am yennster (https://keybase.io/yennster) on keybase.
+  * I have a public key with fingerprint 1A42 6108 F376 2E5F C3C1  6EF6 49EB 96C3 3191 55C7
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01209a6bc9858bdb8cce054ca3bf14841b2e5542b6b559a9f97096551f91b7d40ea20a",
+            "fingerprint": "1a426108f3762e5fc3c16ef649eb96c3319155c7",
+            "host": "keybase.io",
+            "key_id": "49eb96c3319155c7",
+            "kid": "0101aa61e4f9b9713d6fedcd896201d61950d1654ae90bbe4f7fc9ba7eb6115dc9d50a",
+            "uid": "b697ab97b5318b7d19d2eac511322d19",
+            "username": "yennster"
+        },
+        "service": {
+            "hostname": "jennyplunkett.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1468514554,
+    "expire_in": 157680000,
+    "prev": "0c515918f1f8382f828583d00e2617d5904d6cf330aa81a39f2a52244d41c7c3",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMNxAnicbZJrTBxVFMcXRF4FSkAoBDTZMS0KuJk771kfkSgfqLZra5WkFJZ53FkG
+6OwyswtFWLQE2qIlxUixBaxgpJC0NG1oIhG0BVtBQFvRiID0EQGr1WqBUGKpeoe0
+37xfbu65v/O//3POvRD5kCU8IOtm0xfg3deGAkYHmn2W7P3n/67ARLdcjtkrsCK4
+tsFiGRpeZ5EqY3YMBwTOC4wo8RzNibLISRLEaUoSSFEBFEcBkYA0TREiI9I0L/AK
+z+I8Q9NA4YHIyhQOBQIXsHRMUTUX1D26qnmRLBAoggE4p5AsgwQUiZQAAxWG4qHI
+MxJJAh7QtMSixAK3YWYgc6JgQJvqRjF0cK7Z+x/+gW8cCAIDIKXwIs8CUmYUKEsy
+xzMEDmQG8DQuA4amBMjjoogwVpF4UWChyABAyxIv02u+fWtyIsOzAtIRaRJwqC7A
+ywQUJBoAkiDQyQQNqGvCbojocqhphhfqmD8dQ9FSVYJmY81K7hOFiCj3FPu0Iuj1
+2lAoHfPobq9bchej2wKv12M3k73lHpMug6Lzvo5TVDUZtRIllELdUN0aZgeIlLyq
+KQwohqMBhSaSjsE9HlWHTtUkaJbhcLTMZ2Cp2R/kneYBpwCFIzlC4Qg0X1LGcYjm
+wso0j1MyIykkiQsCBwSSVwiBJgiKkikgsRKJmZWVaG7MziObggtJGqpLE7w+HWL+
+wYFdQZaAcEvww4HmF7OEh0U/+HijI9GW2o0b36GiQ1fKdP+pwhuVx1P8j/T3JX96
+8iXHwDXrbwdfSNm0uTtYWFjvndifk+QO7g2uaJjRa9rnDxdE+oc4h/HL9rGVfdeP
+lLVOTqbctWGBrud2xXZNDo5Tq7dWfb5TUd1i6w7r1Od7Pg5dzk1YbbdGfOs/HFTZ
+JS9vBblnt4Q528hzXH7b2I1tw7fHPylstM8aH/xFPTVcM19prRkr/VU2zuQPbRp+
+r2M0bOcTO6w97D8/NcyMZ6370NluS72YU5h4JaDK1gl6jn+2kudMPDa2ee93p1fs
+fcX5B9e9OFvw42P63qSgfWOX2Z1bf8gqNZS0NyeCS/IS3njbklnx/YUL965MOVwx
+Q+G58WlXN7RcPJJpS7Wfa7sTVE92N9RRLZk5gbf811ozPNKG4ZaIA50adbK/vfP1
+q42P1sc1Jtx9Vcop3xLyc+KhV44GSZ7bz6SETE8s8nkhJzpCOoj31UE4VTd959jy
+nz2N215e7P03B0h/+EO6Bme/ychz1KZlu7Kz2d8jAyu/nheuP9+81NWbdOYyOeXo
+qwvtt2uzHxnSiFY954+sHbbGZUa1bZ+2V9/bvdDMrD8Ra63Sm5JTjsY2nP5KcNQn
+K/GZXy6NNlc9W1X9NFUYA5yJS90RZy/NVaTO2Zfr46KmR6JLFlvbz4/GPLkw9DhO
+3FxNzEhtin/rQF3PpZn/AN0UvuI=
+=IYET
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/yennster
+
+==================================================================
