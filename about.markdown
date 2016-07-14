@@ -4,16 +4,25 @@ title: about
 ---
 <img style="width:30%;" class="about-img-page pull-right" src="/images/me.png">
 
-## Jenny Plunkett
+## About Me
 Bachelor of Science in Computer Engineering  
 The University of Texas at Austin, Expected May 2018
 
-### My Involvement
-President (Summer 2015 - Current): [IEEE Computer Society](http://ieeecs.ece.utexas.edu)  
-Secretary (Fall 2014 - Summer 2015): [IEEE Computer Society](http://ieeecs.ece.utexas.edu)  
-Member (Fall 2013 - Current): [IEEE Main Branch](http://ieee.ece.utexas.edu)  
-Member (Fall 2013 - Current): [Women in Electrical & Computer Engineering](http://utwece.org/)  
-Member (Fall 2013 - Summer 2014): [The University of Texas Longhorn Band](https://lhb.music.utexas.edu/)
+[View my resume!](/resume)
+
+#### Work Experience
+Project Management Intern @ [ARM, Inc.](http://www.arm.com/) (Summer 2016)  
+Web Developer @ [UT Austin ServiceNow](https://centralbusinessoffice.utexas.edu/content/service-now-go-live) (Spring 2015 - Summer 2016)  
+Senior Student Associate @ [UT Service Desk](https://www.utexas.edu/its/helpdesk/) (Summer 2014 - Fall 2015)  
+
+#### Leadership Experience
+President of [IEEE Computer Society Student Branch](http://ieeecs.ece.utexas.edu) (Summer 2015 - Summer 2016)     
+Secretary of [IEEE Computer Society Student Branch](http://ieeecs.ece.utexas.edu) (Fall 2014 - Summer 2015)  
+
+#### My Involvement
+Member of [IEEE Main Student Branch](http://ieee.ece.utexas.edu) (Fall 2013 - Current)  
+Member of [Women in Electrical & Computer Engineering](http://utwece.org/) (Fall 2013 - Current)  
+Member of [The University of Texas Longhorn Band](https://lhb.music.utexas.edu/) (Fall 2013 - Summer 2014)  
 
 > Computers are useless. They can only give you answers.
 
