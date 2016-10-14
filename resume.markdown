@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: résumé
+title: resume
 ---
 [Download for Mobile](/files/Jennifer-Plunkett-Resume.pdf)
 
