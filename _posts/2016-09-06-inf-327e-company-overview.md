@@ -27,6 +27,7 @@ title: INF 327E Company Overview
         * Consolidated Statements of Comprehensive Loss (Tesla 10-K, 2016, p. 50)
         * Consolidated Statements of Stockholders’ Equity (Tesla 10-K, 2016, p. 51)
         * Consolidated Statements of Cash Flows (Tesla 10-K, 2016, p. 52)  
+
 ### Competitors
 * Who do they define as their competitors?
     * “The worldwide automotive market, particularly for alternative fuel vehicles, is highly competitive today and we expect it will become even more so in the future as we introduce additional, lower priced vehicles such as our Model 3.”
@@ -42,7 +43,8 @@ title: INF 327E Company Overview
         * Investopedia Searches (to find news and investor articles):
             * tesla green competitor
             * electric vehicle manufacturers
-            * electric vehicle market  
+            * electric vehicle market
+
 ### Customers
 
 #### Sources        
