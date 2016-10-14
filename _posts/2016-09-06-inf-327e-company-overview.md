@@ -35,14 +35,14 @@ title: INF 327E Company Overview
     * Keywords: energy, efficiency, motors, energy solutions, fuel-efficient, vehicles, green, innovation, performance, luxury, electric vehicles, vehicle manufacturer, design
     * Search Strategy: My search strategy to find direct and indirect competitors of Tesla relies on the internet, primarily through Google and Investopedia searches.
         * Google Searches (to find news articles and lists):
-            * <pre>tesla “competitor”</pre>
-            * <pre>vehicle manufacturer +green +efficient</pre>
-            * <pre>electric vehicle manufacturers</pre>
-            * <pre>green energy producer “solution”</pre>
+            * tesla “competitor”
+            * vehicle manufacturer +green +efficient
+            * electric vehicle manufacturers
+            * green energy producer “solution”
         * Investopedia Searches (to find news and investor articles):
-            * <pre>tesla green competitor</pre>
-            * <pre>electric vehicle manufacturers</pre>
-            * <pre>electric vehicle market</pre>
+            * tesla green competitor
+            * electric vehicle manufacturers
+            * electric vehicle market
 ### Customers
 
 #### Sources        
