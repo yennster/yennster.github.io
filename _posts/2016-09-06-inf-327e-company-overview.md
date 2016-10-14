@@ -3,10 +3,10 @@ title: INF 327E Company Overview
 ---
 ### Business & Product Description
 * Briefly describe their business. What are the SIC and NAICS codes (see the header information in EDGAR)? Use cross-tables to find the NAICS code if necessary
-    * Brief Description: “Tesla’s mission is to accelerate the world’s transition to sustainable energy.” (About Tesla, 2016)  
+    * **Brief Description:** “Tesla’s mission is to accelerate the world’s transition to sustainable energy.” (About Tesla, 2016)  
     “We currently design, develop, manufacture and sell fully electric vehicles and energy storage products.” (Tesla 10-K, 2016, p. 5)
-    * SIC Code: SIC-3711 (SEC, 2016)
-    * NAICS Code: 441110 (ZoomInfo, 2016)
+    * **SIC Code:** SIC-3711 (SEC, 2016)
+    * **NAICS Code:** 441110 (ZoomInfo, 2016)
 * List their products and briefly summarize each. How do they segment their products? State briefly what need the product set is fulfilling for the customer?
     * **Products:** “We design, develop, manufacture and sell high-performance fully electric vehicles and energy storage products (Tesla 10-K, 2016, p. 5).  
     Tesla currently produces the following products: Model S, Model X, Model 3, and Energy Storage Applications (Tesla 10-K, 2016, p. 6).
