@@ -1,10 +1,6 @@
 ---
 title: INF 327E Company Overview
 ---
-
-> Music: [Battle (Boss)](http://freemusicarchive.org/music/BoxCat_Games/Nameless_the_Hackers_RPG_Soundtrack/BoxCat_Games_-_Nameless-_the_Hackers_RPG_Soundtrack_-_05_Battle_Boss) by BoxCat Games, [Tricks](http://freemusicarchive.org/music/BoxCat_Games/Nameless_the_Hackers_RPG_Soundtrack/BoxCat_Games_-_Nameless-_the_Hackers_RPG_Soundtrack_-_24_Tricks) by BoxCat Games, used under a [Creative Commons Attribution License](http://creativecommons.org/licenses/by/3.0/). [Orgrimmar](http://us.blizzard.com/en-us/games/music/wow.html) by Blizzard Entertainment, used under [Fair Use](http://www.copyright.gov/fair-use/more-info.html).
-
-
 ### Business & Product Description
 * Briefly describe their business. What are the SIC and NAICS codes (see the header information in EDGAR)? Use cross-tables to find the NAICS code if necessary
     * Brief Description: “Tesla’s mission is to accelerate the world’s transition to sustainable energy.” (About Tesla, 2016)  
@@ -31,7 +27,6 @@ title: INF 327E Company Overview
         * Consolidated Statements of Comprehensive Loss (Tesla 10-K, 2016, p. 50)
         * Consolidated Statements of Stockholders’ Equity (Tesla 10-K, 2016, p. 51)
         * Consolidated Statements of Cash Flows (Tesla 10-K, 2016, p. 52)
-
 ### Competitors
 * Who do they define as their competitors?
     * “The worldwide automotive market, particularly for alternative fuel vehicles, is highly competitive today and we expect it will become even more so in the future as we introduce additional, lower priced vehicles such as our Model 3.”
@@ -48,7 +43,6 @@ title: INF 327E Company Overview
             * <pre>tesla green competitor</pre>
             * <pre>electric vehicle manufacturers</pre>
             * <pre>electric vehicle market</pre>
-
 ### Customers
 
 #### Sources        
