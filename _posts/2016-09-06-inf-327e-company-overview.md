@@ -1,5 +1,5 @@
 ---
-title: INF 327E Company Overview
+title: INF 327E Tesla Company Overview
 ---
 ### Business & Product Description
 * Briefly describe their business. What are the SIC and NAICS codes (see the header information in EDGAR)? Use cross-tables to find the NAICS code if necessary
@@ -49,6 +49,9 @@ title: INF 327E Company Overview
 
 
 #### Sources        
+
+<!--
 Blizzard Entertainment. "[World of Warcraft: Mists of Pandaria](http://us.battle.net/wow/en/legion/)". Activision Blizzard, 2012. Online.
 
 Hsu, Shang H., Ming-Hui Wen, and Muh-Cherng Wu. "[Exploring user experiences as predictors of MMORPG addiction.](http://utexas.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMwpV1LSwMxEA5SPHjx_agPyB_Ybrd5bAJe1LYKIohWryGbTaA9tEtbwZ9vZpOtL0TQa3YS2MzuN0PyzTcIkV6nm3zBBMJzbakoOcmJc66gnMrCT5eSucwSqHceDfLhM-_fidtYGhNJljESBISvsTuOpHFv02o8Th89EoN0jI9_9W0qKIQyH0xB-LF_-aFSsm5bDMYJWL_X9KQTWLuCE5IgYglynvynaNVqqHMRV4dbqGE1NQSUWulpaV-DHuJ3kcd_vNs22ozpKr4IdjtozU53odNzZIXsofMViQ_DeQe2K-nkBdYLXM3hIgg6-uCZw95ZD_fXGDhMdTnFPnoaDkZXN0nsyJCYHpRa59J4iGBcUKcza6UotLS5JqzghmvbZcL5dCSnhU-6uDBCu8yUVGohGQWtV3KAWtPZ1B4hbLQotdAFLR0FVXyPG8ZCf4aCspKVvI06zc6rKghvqIaRNlHRVdBEU6ouU360jUTjH_VpX5UPDr9NPQR_Kvinl3Nt_DPigSnjveO_L3qCNsLNExzXnKLWcv5iz9B6-CTeAMpI7WM)" Computers & Education, vol. 53, Elsevier Ltd, 2009.
+-->
