@@ -1,5 +1,5 @@
 ---
-title: JennyNow.info - ServiceNow Tips!
+title: JennyNow - ServiceNow Tips!
 ---
 ### ServiceNow Tips & Tricks
 
