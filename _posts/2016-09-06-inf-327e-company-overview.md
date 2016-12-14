@@ -1,5 +1,5 @@
 ---
-title: INF 327E Tesla Company Overview
+title: INF 327E Project 1 - Tesla Overview
 ---
 ### Business & Product Description
 * Briefly describe their business. What are the SIC and NAICS codes (see the header information in EDGAR)? Use cross-tables to find the NAICS code if necessary
