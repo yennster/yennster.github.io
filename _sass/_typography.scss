@@ -13,7 +13,7 @@
         line-height: $base-line-height;
     }
     h1, h2, h3, h4, h5, h6, dl {
-        margin: 1em 0;
+        margin: 0.5em 0;
     }
     code {
         font-size: $base-font-size;
@@ -110,10 +110,10 @@
       border-radius: 0.3em;
     }
     ul, ol {
-        padding: $base-spacing/5 $base-spacing/10;
+        padding: $base-spacing/10 0; //$base-spacing/10
     }
     ul {
-        list-style-type: circle;
+        list-style-type: disc; // circle
     }
     ol {
         list-style-type: decimal;
