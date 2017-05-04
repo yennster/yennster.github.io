@@ -13,7 +13,7 @@ The University of Texas at Austin, Expected May 2018
 #### Work Experience
 Internet of Things Intern @ [ARM, Inc.](http://www.arm.com/) (Summer 2017)  
 Project Management Intern @ [ARM, Inc.](http://www.arm.com/) (Summer 2016)  
-Web Developer @ [UT Austin ServiceNow](https://centralbusinessoffice.utexas.edu/content/service-now-go-live) (Spring 2015 - Summer 2017)  
+Web Developer @ [UT Austin ServiceNow](https://ut.service-now.com/utss) (Spring 2015 - Summer 2017)  
 Disney College Program Intern @ [Walt Disney World](https://jobs.disneycareers.com/disney-college-program) (Spring 2015)  
 Senior Student Associate @ [UT Service Desk](https://www.utexas.edu/its/helpdesk/) (Summer 2014 - Fall 2015)  
 
