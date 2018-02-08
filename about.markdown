@@ -32,6 +32,4 @@ Member of [The University of Texas Longhorn Band](https://lhb.music.utexas.edu/)
 	<a href="mailto:jplunkett@utexas.edu"><i class="fa fa-envelope-square"></i></a>
 	<a href="https://github.com/yennster" target="_blank"><i class="fa fa-github-square"></i></a>
 	<a href="https://www.linkedin.com/in/jennyplunkett" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-	<a href="http://yennster.com" target="_blank"><i class="fa fa-tumblr-square"></i></a>
-	<a href="https://twitter.com/yennster57" target="_blank"><i class="fa fa-twitter-square"></i></a>
 </span>
