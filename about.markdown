@@ -11,8 +11,8 @@ The University of Texas at Austin, May 2018
 [View my resume!](/resume)
 
 #### Work Experience
-Graduate Applications Engineer @ [ARM, Inc.](http://www.arm.com/) (Summer 2018 - )
-Internet of Things Intern @ [ARM, Inc.](http://www.arm.com/) (Summer 2017 - Spring 2018)  
+Graduate Applications Engineer @ [ARM, Inc.](http://www.arm.com/) (Summer 2018 - )  
+Internet of Things Intern @ [ARM, Inc.](http://www.arm.com/) (Summer 2017 - Spring 2018)  
 Project Management Intern @ [ARM, Inc.](http://www.arm.com/) (Summer 2016)  
 Web Developer @ [UT Austin ServiceNow](https://ut.service-now.com/utss) (Spring 2015 - Spring 2017)  
 Disney College Program Intern @ [Walt Disney World](https://jobs.disneycareers.com/disney-college-program) (Spring 2015)  
