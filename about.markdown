@@ -5,7 +5,7 @@ title: about
 <img style="width:30%;" class="about-img-page pull-right" src="/images/me.png">
 
 ## About Me
-Bachelor of Science in Electrical Engineering (Primary Core: Software Engineering)
+Bachelor of Science, Electrical Engineering (Primary Core: Software Engineering)
 The University of Texas at Austin, May 2018
 
 [View my resume!](/resume)
