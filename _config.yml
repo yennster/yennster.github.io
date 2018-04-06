@@ -13,7 +13,7 @@ author: Jenny Plunkett
 # This description will show up in google search results
 # (for index page) etc.
 description: >
-    Jenny Plunkett's Website
+    Jenny Plunkett's Portfolio
 
 # This will what will show against &copy; in the footer
 copyright: jenny plunkett 2018
@@ -22,7 +22,7 @@ copyright: jenny plunkett 2018
 intro: true        # Tip: Remove the span from site_heading if intro is set to true
 # This will be displayed in your intro
 short_bio: >
-    Computer Engineering Undergraduate, UT Austin
+    Graduate Applications Engineer @ Arm
 
 permalink: /:title
 
@@ -34,11 +34,11 @@ comments: false
 # Note that about_footer should be true if you want
 # to see author information at the bottom of each post
 about_stub: >
-    Computer Engineering Undergraduate, The University of Texas at Austin
+    Graduate Applications Engineer @ Arm
 
 about_footer: true
 
-twitter_username: yennster57
+twitter_username: jennymplunkett
 github_username: yennster
 facebook_id: jennymplunkett
 
