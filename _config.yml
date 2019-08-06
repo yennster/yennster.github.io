@@ -16,13 +16,13 @@ description: >
     Jenny Plunkett's Portfolio
 
 # This will what will show against &copy; in the footer
-copyright: jenny plunkett 2018
+copyright: jenny plunkett 2019
 # Toggle your short bio, which will displayed on your index page
 # Just toggle it and run jekyll again to see
 intro: true        # Tip: Remove the span from site_heading if intro is set to true
 # This will be displayed in your intro
 short_bio: >
-    Graduate Applications Engineer @ Arm
+    Applications Engineer @ Arm
 
 permalink: /:title
 
@@ -34,7 +34,7 @@ comments: false
 # Note that about_footer should be true if you want
 # to see author information at the bottom of each post
 about_stub: >
-    Graduate Applications Engineer @ Arm
+    Applications Engineer @ Arm
 
 about_footer: true
 
