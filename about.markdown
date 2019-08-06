@@ -11,7 +11,8 @@ The University of Texas at Austin, May 2018
 [View my resume!](/resume)
 
 #### Work Experience
-Graduate Software Engineer @ [Arm](http://www.arm.com/) (June 2018 - Present)  
+Applications Engineer @ [Arm](http://www.arm.com/) (November 2018 - Present)  
+Graduate Software Engineer @ [Arm](http://www.arm.com/) (June 2018 - November 2018)  
 Internet of Things Intern @ [Arm](http://www.arm.com/) (May 2017 - May 2018)  
 Project Management Intern @ [Arm](http://www.arm.com/) (May 2016 - August 2016)  
 Web Developer @ [UT Austin ServiceNow](https://ut.service-now.com/utss) (January 2016 - May 2017)  
