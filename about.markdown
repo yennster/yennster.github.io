@@ -11,7 +11,8 @@ The University of Texas at Austin, May 2018
 [View my resume!](/resume)
 
 #### Work Experience
-Applications Engineer @ [Arm](http://www.arm.com/) (November 2018 - Present)  
+User Success Engineer @ [Edge Impulse](http://edgeimpulse.com/) (November 2020 - Present)  
+Applications Engineer @ [Arm](http://www.arm.com/) (November 2018 - October 2020)  
 Graduate Software Engineer @ [Arm](http://www.arm.com/) (June 2018 - November 2018)  
 Internet of Things Intern @ [Arm](http://www.arm.com/) (May 2017 - May 2018)  
 Project Management Intern @ [Arm](http://www.arm.com/) (May 2016 - August 2016)  
