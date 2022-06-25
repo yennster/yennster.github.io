@@ -11,15 +11,8 @@ about:
   title: "Jenny Plunkett, <span>Senior DevRel Engineer</span>"
   description: "Hi! I am a Senior Developer Relations Engineer @ Edge Impulse."
   img_src: "/assets/img/slider/me.png"
-  learn_more: Learn More
-  lm_url: #
   email: jenny@jennyplunkett.me
   study: The University of Texas at Austin
-  languages:
-      - title: English
-        expertise: 100
-      - title: Dutch
-        expertise: 15
 
 portfolio:
   title: portfolio

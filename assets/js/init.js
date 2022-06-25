@@ -663,7 +663,7 @@ function tokyo_tm_owl_carousel() {
 	
 
 	if(!localStorage.getItem('theme_color')){
-		localStorage.setItem('theme_color', 'dark');
+		localStorage.setItem('theme_color', 'white');
 	}
 
 	$('.tk-theme-color .black, .demos #intro-dark-mode').on('click', function (e) {
