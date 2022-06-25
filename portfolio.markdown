@@ -14,7 +14,7 @@ title: portfolio
 * June 2021 — Arrow Tech Snacks Festival: [Deep-dive: Build Industrial-Grade Embedded Applications In Days, Not Months, with Edge Impulse and Silicon Labs](https://register.gotowebinar.com/register/4941644376358448396)
     * [Tech Snack: Build Industrial-Grade Embedded Applications In Days, Not Months, with Edge Impulse and Silicon Labs](https://register.gotowebinar.com/register/1871782622855797262)
 * June 2021 — Tutorial: [Connecting Sony's Spresense to Edge Impulse](https://youtu.be/OI9AymVUU_4)
-* July 2021 — Embedded Online Conference: [Learning how to Deliver AI Solutions In Days, Not Months with Sony's Spresense](http://www.embeddedonlineconference.com/workshop/Learning_how_to_Deliver_AI_Solution_In_Days_Not_Months)
+* July 2021 — Embedded Online Conference: [Learning How to Deliver AI Solutions In Days, Not Months with Sony's Spresense](http://www.embeddedonlineconference.com/workshop/Learning_how_to_Deliver_AI_Solution_In_Days_Not_Months)
 * July 2021 — Interview: [Edge Impulse Embedded Machine Learning AMA](https://www.youtube.com/watch?v=_Ozui1kkOyo)
 * August 2021 — Hackster: [Supercharge Your Products with Sony's Spresense & Edge Impulse Embedded ML](https://www.youtube.com/watch?v=ipPLZNkAI0Y)
 * August 2021 — Hackster Café: [Jenny Plunkett on Edge Impulse + Sony's Spresense](https://www.youtube.com/watch?v=_MX_XjyYMcQ)
@@ -23,8 +23,19 @@ title: portfolio
 * November 2021 — Google TensorFlow: [TensorFlow ML Community Day: Building Machine Learning models with Edge Impulse](https://www.youtube.com/watch?v=gw1E5JZTim0)
 * November 2021 — IoT Central & Arduino PRO: [Factory 5.0: ML-Powered Manufacturing Workshop](https://register.gotowebinar.com/register/4284862102840899596?source=IoTCMC)
 * December 2021 — Adobe ColdFusion Summit: [The Dawn of Machine Learning, AI and You](https://cfsummit.vconfex.com/event/adobe-coldfusion-summit-2021_/1290?redirect=1#category=6&module=28150)
+* April 2022 - Danish Sound Cluster: [Edge Impulse for Consumer Audio Applications](https://danishsoundcluster.dk/edge-impulse-for-consumer-audio-applications/)
+* June 2022 - Danish Sound Cluster: [Keyword detection ESP32 Workshop](https://danishsoundcluster.dk/keyword-detection-esp32/)
+* June 2022 - Embedded Vision Summit: [Edge Impulse Demonstration of Screw and Washer Detection with FOMO](https://www.youtube.com/watch?v=YmBWmXDLIdY)
+* June 2022 - Embedded Vision Summit: [Edge Impulse Demonstration of Wildlife Monitoring with Sony Spresense](https://www.youtube.com/watch?v=nbxdRnQ7wew)
+* June 2022 - Tutorial: [Getting Started with the Arduino Nicla Sense ME and Edge Impulse
+](https://www.youtube.com/watch?v=dj-2T8DVtSg)
+* July 2022 - AMA: [Edge Impulse MLOps AMA](https://www.youtube.com/watch?v=ponZ2ahE3uQ)
 
 ## Technical Writing Samples
+
+### O'Reilly Media
+
+* ["AI at the Edge" by Daniel Situnayake & Jenny Plunkett](https://www.oreilly.com/library/view/ai-at-the/9781098120191/)
 
 ### Edge Impulse
 
@@ -36,7 +47,13 @@ title: portfolio
 * Blog — [Bird Classification in Remote Areas with Lacuna Space and The Things Network](https://www.edgeimpulse.com/blog/bird-classification-lacuna-space)
 * Blog — [Announcing Support for Sony's Spresense Microcontroller](https://www.edgeimpulse.com/blog/announcing-support-for-the-sony-spresense)
 * Blog — [Unleash the Power of LTE-M/NB-IoT & Edge AI with the nRF9160 DK](https://www.edgeimpulse.com/blog/unleash-the-power-of-lte-mnb-iot-and-edge-ai-with-the-nrf9160-dk)
+* Blog - [Announcing Official Support for the Silicon Labs xG24 Dev Kit](https://www.edgeimpulse.com/blog/announcing-official-support-for-the-silicon-labs-xg24-dev-kit)
 * Blog — [Showcase Your Public Projects with Markdown READMEs](https://www.edgeimpulse.com/blog/showcase-your-public-projects-with-markdown-readmes)
+* Blog - [Advanced Anomaly Detection with Feature Importance](https://www.edgeimpulse.com/blog/advanced-anomaly-detection-with-feature-importance)
+* Blog - [3 Ways to Do AI-Assisted Labeling for Object Detection](https://www.edgeimpulse.com/blog/3-ways-to-do-ai-assisted-labeling-for-object-detection)
+* Blog - [Rapidly Develop Machine Learning Models for Edge Applications Over BLE](https://www.edgeimpulse.com/blog/rapidly-develop-machine-learning-models-for-edge-applications-over-ble)
+* Documentation - [Getting Started with Arduino Nicla Sense ME](https://docs.edgeimpulse.com/docs/development-platforms/officially-supported-mcu-targets/arduino-nicla-sense-me)
+* Documentation - [Getting Started with Nordic Semi Thingy:53 & nRF Edge Impulse App](https://docs.edgeimpulse.com/docs/development-platforms/officially-supported-mcu-targets/nordic-semi-thingy53)
 * Documentation — [Getting Started with Sony's Spresense](https://docs.edgeimpulse.com/docs/sony-spresense)
 * Documentation — [EON Tuner Guide](https://docs.edgeimpulse.com/docs/eon-tuner)
 
