@@ -1,5 +1,5 @@
 home:
-  profile_name: JENNY <span>PLUNKETT</span>
+  profile_name: Jenny <span>Plunkett</span>
   profile_img: "/assets/img/slider/me.png"
   bio: "Senior Developer Relations Engineer @ Edge Impulse"
   social:
@@ -8,13 +8,13 @@ home:
     linkedin: "https://www.linkedin.com/in/jennyplunkett/"
 
 about:
-  title: "Jenny Plunkett & <span>Senior DevRel Engineer</span>"
+  title: "Jenny Plunkett, <span>Senior DevRel Engineer</span>"
   description: "Hi! I am a Senior Developer Relations Engineer @ Edge Impulse."
   img_src: "/assets/img/slider/me.png"
   learn_more: Learn More
   lm_url: #
   email: jenny@jennyplunkett.me
-  study: The Univercity of Texas at Austin
+  study: The University of Texas at Austin
   languages:
       - title: English
         expertise: 100
