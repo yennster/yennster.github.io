@@ -1,0 +1,169 @@
+.tokyo_tm_news ul li {
+  height: 58vh;
+}
+
+.tokyo_tm_news ul li .image img {
+  height: 245px;
+}
+
+.tokyo_tm_portfolio .portfolio_list li {
+  height: 53vh;
+}
+
+.entry {
+  height: 100%;
+}
+
+.tokyo_tm_portfolio .portfolio_list li .inner {
+  height: 100%;
+}
+
+.entry.tokyo_tm_portfolio_animation_wrap a {
+  display: block;
+}
+
+.tokyo_tm_settings .tk-theme-color li a, .tokyo_tm_settings .colors li a {
+  transition: 0.2s;
+  margin: 0 5px;
+}
+
+.tokyo_tm_settings .tk-theme-color li, .tokyo_tm_settings .colors li {
+  position: relative;
+}
+
+
+.tokyo_tm_settings .tk-theme-color li a.active, .tokyo_tm_settings .colors li.active a,.tokyo_tm_settings .tk-theme-radius li a.active   {
+  transform: scale(1.2);
+}
+
+
+
+.tokyo_tm_about .about_image .main, .tokyo_tm_button button, .tokyo_tm_button a, .tokyo_tm_portfolio .portfolio_list li .inner .main_image, .tokyo_tm_portfolio .portfolio_list li .inner, .tokyo_tm_news ul li .list_inner, .tokyo_tm_contact .fields ul li input, .tokyo_tm_contact .fields .last textarea, .tokyo_tm_contact .map_wrap .map, .tokyo_tm_title span, .tokyo_tm_modalbox_about .description_wrap, .tokyo_tm_modalbox_news .box_inner, .tokyo_tm_modalbox_news .description_wrap .image .main,.typofix pre, .typofix img,.tokyo_tm_portfolio_titles, .tk-rounded-radius, .tokyo_tm_modalbox_news  .tk-post-rounded-radius .description_wrap .image img, .tokyo_tm_modalbox_about .box_inner {
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.tokyo_tm_contact .fields ul li input {
+  height: 50px;
+}
+
+.tokyo_tm_settings,.tokyo_tm_settings .icon,.tokyo_tm_news ul li .details   {
+  border-bottom-left-radius: 8px;
+  transition: 0.2s;
+}
+
+.tokyo_tm_settings .icon,.tk-news-article .image  {
+  border-top-left-radius: 8px;
+  transition: 0.2s;
+}
+
+.tk-news-article .image {
+  border-top-right-radius: 8px;
+  transition: 0.2s;
+}
+
+.tokyo_tm_news ul li .details {
+  border-bottom-right-radius: 8px;
+}
+
+.tokyo_tm_settings .tk-theme-color li .checkmark, .tokyo_tm_settings .colors li .checkmark,.tokyo_tm_settings .tk-theme-radius li .checkmark {
+  position: absolute;
+  transform: scale(0.3);
+  z-index: 1;
+  top: 0px;
+  left: 1.8px;
+}
+
+/* .tokyo_tm_settings .tk-theme-radius li .checkmark {
+  position: absolute;
+  transform: scale(0.5);
+  z-index: 1;
+  top: -6.5px;
+  left: -5.5px;
+} */
+
+
+.checkmark.draw:after {
+  animation-duration: 800ms;
+  animation-timing-function: ease;
+  animation-name: checkmark;
+  transform: scaleX(-1) rotate(135deg);
+}
+
+.checkmark:after {
+  opacity: 1;
+  
+  height: 3.5em;
+  width: 1.75em;
+  transform-origin: left top;
+  border-right: 10px solid #ffffff;
+  border-top: 10px solid #ffffff;
+  content: "";
+  left: 1.75em;
+  top: 3.5em;
+  position: absolute;
+}
+
+
+
+.tokyo_tm_settings .tk-theme-color li:first-child .checkmark:after{
+  border-right: 10px solid #ffffff;
+  border-top: 10px solid #ffffff;
+}
+.tokyo_tm_settings .tk-theme-color li:last-child .checkmark:after{
+  border-right: 10px solid #333;
+  border-top: 10px solid #333;
+}
+
+
+@keyframes loader-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes checkmark {
+  0% {
+    height: 0;
+    width: 0;
+    opacity: 1;
+  }
+  20% {
+    height: 0;
+    width: 1.75em;
+    opacity: 1;
+  }
+  40% {
+    height: 3.5em;
+    width: 1.75em;
+    opacity: 1;
+  }
+  100% {
+    height: 3.5em;
+    width: 1.75em;
+    opacity: 1;
+  }
+}
+
+/* .tk-theme-radius li a {
+  width: 40px!important;
+  height: 40px!important;
+} */
+
+.tk-theme-radius a.tk-square {
+  border-radius: 0px!important;
+}
+.tk-theme-radius a.tk-rounded {
+  border-radius: 6px!important;
+}
+
+.logo-dark, .logo-light{
+  display: none;
+}
+
+body.dark .logo-light, body.white .logo-dark{
+  display: block;
+}

@@ -2,6 +2,7 @@
 
 title: jenny plunkett
 url: "http://jennyplunkett.me"
+logo: /assets/images/header-brand.png
 baseurl: ""
 
 # This will show up at the top of index page
@@ -62,7 +63,11 @@ twitter_image: "images/me.png" # This will show in twitter cards
 ####################################
 ####################################
 
+# Build settings
 markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 gems:
     - jekyll-paginate
@@ -70,6 +75,11 @@ gems:
 sass:
     style: compressed
     sass_dir: _sass
+
+feed:
+  collections:
+    posts:
+      path: "/index.xml"
 
 # Scopes
 defaults:

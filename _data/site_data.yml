@@ -1,0 +1,77 @@
+home:
+  profile_name: ADRIANO <span>SMITH</span>
+  profile_img: "/assets/img/slider/1.jpg"
+  bio: "Creative Photographer based in New York and happy to travel all over Europe to capture photos."
+  social:
+    facebook: "http://facebook.com"
+    twitter: "http://twitter.com"
+    instagram: "http://instagram.com"
+    dribbble: "http://dribble.com"
+    tiktok: "http://tiktok.com"
+
+about:
+  title: "Adriano Smith & <span>Photographer</span>"
+  description: "Hello, I am a creative photographer based in New York and happy to travel all over Europe to capture your big day in candid and authentic photos. I will create a lasting memory of the people."
+  img_src: "/assets/img/slider/1.jpg"
+  learn_more: Learn More
+  lm_url: #
+  birthday: "01.07.1990"
+  age: 31
+  address: Ave 11, New York, USA
+  email: mail@gmail.com
+  phone: +77 022 177 05 05
+  study: Univercity of Texas
+  freelance: Available
+  photography:
+      - title: Wedding Photography
+        expertise: 95
+      - title: Lifestyle Photography
+        expertise: 85
+      - title: Family Photography
+        expertise: 90
+  languages:
+      - title: English
+        expertise: 95
+      - title: Japanese
+        expertise: 85
+      - title: Arabic
+        expertise: 90
+  project_completed: 777+
+  happy_clients: 3k+
+  lines_of_code: 9k+
+  our_partners:
+    - name: one 
+      img_src: "/assets/img/partners/1.png"
+      url: #
+    - name: two 
+      img_src: "/assets/img/partners/2.png"
+      url: #
+    - name: three 
+      img_src: "/assets/img/partners/3.png"
+      url: #
+    - name: Four 
+      img_src: "/assets/img/partners/4.png"
+      url: #
+    - name: Five 
+      img_src: "/assets/img/partners/5.png"
+      url: #
+    - name: Six 
+      img_src: "/assets/img/partners/6.png"
+      url: #
+    - name: Seven 
+      img_src: "/assets/img/partners/7.png"
+      url: #
+    - name: Eight 
+      img_src: "/assets/img/partners/8.png"
+      url: #
+
+
+portfolio:
+  title: Creative Portfolio
+
+news:
+  title: Latest News
+
+contact:
+  title: Get in Touch
+

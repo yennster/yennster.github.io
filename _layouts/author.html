@@ -1,0 +1,83 @@
+---
+layout: default
+---
+
+{% assign author_posts = site.posts | where: 'author_id', page.author_id %}
+
+
+<!-- WRAPPER ALL -->
+<div class="tokyo_tm_all_wrap" data-magic-cursor="" data-color="black">
+    {% include tk-theme-settings.html %}
+
+    <!-- MOBILE MENU -->
+    <div class="tokyo_tm_mobile_menu">
+        <div class="menu_inner">
+            <div class="logo">
+                <img src="{{'/assets/img/logo/dark.png' | relative_url}}" alt="" />
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home"><img class="svg" src="{{'/assets/img/svg/home-run.svg' | relative_url}}"
+                                alt="" /></a></li>
+                    <li><a href="#about"><img class="svg" src="{{'/assets/img/svg/avatar.svg' | relative_url}}"
+                                alt="" /></a></li>
+                    <li><a href="#portfolio"><img class="svg" src="{{'/assets/img/svg/briefcase.svg' | relative_url}}"
+                                alt="" /></a></li>
+                    <li><a href="#news"><img class="svg" src="{{'/assets/img/svg/paper.svg' | relative_url}}"
+                                alt="" /></a></li>
+                    <li><a href="#contact"><img class="svg" src="{{'/assets/img/svg/mail.svg' | relative_url}}"
+                                alt="" /></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- /MOBILE MENU -->
+
+    {% include tk-left-part.html %}
+
+    <!-- RIGHTPART -->
+    <div class="rightpart">
+        <div class="rightpart_in">
+
+            <!-- NEWS -->
+            <div id="tk_news" class="author_tokyo_tm_section">
+                <div class="container">
+                    <div class="tokyo_tm_news">
+                        <div class="tokyo_tm_title">
+                            <div class="title_flex">
+                                <div class="left">
+                                    <span>Author</span>
+                                    <h3>{{page.title}}</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <ul>
+                            {% for post in author_posts %}
+                                {% include post-card.html %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /NEWS -->
+
+            <!-- MODALBOX NEWS -->
+            <div class="tokyo_tm_modalbox_news">
+                <div class="box_inner">
+                    <div class="close">
+                        <a href="#"><img class="svg" src="{{'/assets/img/svg/cancel.svg' | relative_url}}" alt="" /></a>
+                    </div>
+                    <div class="description_wrap scrollable"></div>
+                </div>
+            </div>
+            <!-- /MODALBOX NEWS -->
+        </div>
+    </div>
+
+    <!-- CURSOR -->
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+    <!-- /CURSOR -->
+
+</div>
+<!-- / WRAPPER ALL -->

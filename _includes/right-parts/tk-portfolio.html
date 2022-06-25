@@ -1,0 +1,57 @@
+{% assign portfolio_data = site.data.site_data[page.portfolio_data] %}
+<div class="tokyo_tm_portfolio_titles"></div>
+<!-- PORTFOLIO -->
+<div id="portfolio" class="tokyo_tm_section">
+    <div class="container">
+        <div class="tokyo_tm_portfolio">
+            <div class="tokyo_tm_title">
+                <div class="title_flex">
+                    <div class="left">
+                        <span>Portfolio</span>
+                        <h3>{{portfolio_data.title}}</h3>
+                    </div>
+                    <div class="portfolio_filter">
+                        <ul>
+                            <li><a href="#" class="current" data-filter="*">All</a></li>
+                            <li><a href="#" data-filter=".vimeo">Vimeo</a></li>
+                            <li><a href="#" data-filter=".youtube">Youtube</a></li>
+                            <li><a href="#" data-filter=".soundcloud">Soundcloud</a></li>
+                            <li><a href="#" data-filter=".image">Image</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="list_wrapper">
+                <ul class="portfolio_list gallery_zoom">
+                    {% for portfolio in site.data.portfolio %}
+
+                        {% assign protCat = portfolio.cat | slugify %}
+                        {% if protCat == 'youtube' %}
+                            {% assign popClass = 'popup-youtube' %}
+                        {% elsif protCat == 'vimeo'%}
+                            {% assign popClass = 'popup-vimeo' %}
+                        {% elsif protCat == 'soundcloud'%}
+                            {% assign popClass = 'soundcloude_link mfp-iframe audio' %}
+                        {% elsif protCat == 'image'%}
+                            {% assign popClass = 'zoom' %}
+                        {% endif %}
+
+                        <li class="{{portfolio.filter_classes}}">
+                            <div class="inner">
+                                <div class="entry tokyo_tm_portfolio_animation_wrap" data-title="{{portfolio.name}}"
+                                    data-category="{{portfolio.cat | capitalize}}">
+                                    <a class="{{popClass}}" href="{{portfolio.project_url | relative_url}}">
+                                        <img src="{{portfolio.img_src | relative_url}}" alt="{{portfolio.name}}" />
+                                        <div class="main_image" data-img-url="{{portfolio.img_src | relative_url}}">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /PORTFOLIO -->

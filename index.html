@@ -1,23 +1,54 @@
 ---
 layout: default
+home_data: home
+about_data: about
+portfolio_data: portfolio
+news_data: news
+contact_data: contact
 ---
 
-{% include intro.html %}
 
-<section class="post-list">
-    <div class="container">
-        {% for post in paginator.posts %}
-            <div class="post-preview">
-                <span class="post-title alignable pull-left">
-                    <a class="post-link underline" href="{{ post.url | prepend: site.baseurl }}">
-                        {{ post.title }}
-                    </a>
-                </span>
-                <span class="post-time alignable pull-right">
-                    <time>{{ post.date | date: '%B %d, %Y '}}</time>
-                </span>
-                <div style="clear:both"></div>
-            </div>
-        {% endfor %}
-    </div>
-</section>
+
+<!-- WRAPPER ALL -->
+<div class="tokyo_tm_all_wrap" data-magic-cursor="" data-color="black">
+	<!-- If you want disable magic cursor add value "hide" -->
+
+	<!-- MAGIC CURSOR VALUES: "", hide -->
+	<!-- COLOR VALUES: blue, green, brown, pink, orange, black, white, purple, sky, cadetBlue, crimson, olive, red -->
+
+	{% include tk-theme-settings.html %}
+
+	
+
+
+	<!-- MOBILE MENU -->
+	<div class="tokyo_tm_mobile_menu">
+		<div class="menu_inner">
+			<div class="logo">
+				<img src="{{'/assets/img/logo/dark.png' | relative_url}}" alt="" />
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="#home"><img class="svg" src="{{'/assets/img/svg/home-run.svg' | relative_url}}" alt="" /></a></li>
+					<li><a href="#about"><img class="svg" src="{{'/assets/img/svg/avatar.svg' | relative_url}}" alt="" /></a></li>
+					<li><a href="#portfolio"><img class="svg" src="{{'/assets/img/svg/briefcase.svg' | relative_url}}" alt="" /></a></li>
+					<li><a href="#news"><img class="svg" src="{{'/assets/img/svg/paper.svg' | relative_url}}" alt="" /></a></li>
+					<li><a href="#contact"><img class="svg" src="{{'/assets/img/svg/mail.svg' | relative_url}}" alt="" /></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- /MOBILE MENU -->
+
+	{% include tk-left-part.html %}
+	{% include tk-right-part.html %}
+
+	
+
+	<!-- CURSOR -->
+	<div class="mouse-cursor cursor-outer"></div>
+	<div class="mouse-cursor cursor-inner"></div>
+	<!-- /CURSOR -->
+
+</div>
+<!-- / WRAPPER ALL -->

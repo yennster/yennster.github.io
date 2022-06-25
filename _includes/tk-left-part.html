@@ -1,0 +1,25 @@
+<!-- LEFTPART -->
+<div class="leftpart">
+    <div class="leftpart_inner">
+        <div class="logo">
+            <a href="/">
+                <img class="logo-dark" src="{{'/assets/img/logo/dark.png' | relative_url}}" alt="{{site.title}}" />
+                <img class="logo-light" src="{{'/assets/img/logo/logo.png' | relative_url}}" alt="{{site.title}}" />
+            </a>
+        </div>
+        <div class="menu">
+            <ul>
+                {% assign x = 0 %}
+                {% for navigation in site.data.navigation %}
+                    {% assign x = x | plus:1 %}
+                    <li {% if x == 1% %} class="active" {% endif %}><a href="#{{navigation.url}}">{{navigation.text}}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>&copy; <script>document.write(new Date().getFullYear())</script> {{site.title}}<br>Created by <a href="https://themeforest.net/user/themeix/portfolio"
+                    target="_blank">Themeix</a></p>
+        </div>
+    </div>
+</div>
+<!-- /LEFTPART -->

@@ -1,0 +1,33 @@
+{% assign news_data = site.data.site_data[page.news_data] %}
+<!-- NEWS -->
+<div id="news" class="tokyo_tm_section">
+    <div class="container">
+        <div class="tokyo_tm_news">
+            <div class="tokyo_tm_title">
+                <div class="title_flex">
+                    <div class="left">
+                        <span>News</span>
+                        <h3>{{news_data.title}}</h3>
+                    </div>
+                </div>
+            </div>
+            <ul>
+                {% for post in site.posts %} 
+                    {% include post-card.html %} 
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- /NEWS -->
+
+<!-- MODALBOX NEWS -->
+<div class="tokyo_tm_modalbox_news">
+    <div class="box_inner">
+        <div class="close">
+            <a href="#"><img class="svg" src="{{'/assets/img/svg/cancel.svg' | relative_url}}" alt="" /></a>
+        </div>
+        <div class="description_wrap scrollable"></div>
+    </div>
+</div>
+<!-- /MODALBOX NEWS -->

@@ -1,0 +1,32 @@
+{% assign home_data = site.data.site_data[page.home_data] %}
+<!-- HOME -->
+<div id="home" class="tokyo_tm_section active">
+    <div class="container">
+        <div class="tokyo_tm_home">
+            <div class="home_content">
+                <div class="avatar">
+                    <div class="image" data-img-url="{{home_data.profile_img | relative_url}}"></div>
+                </div>
+                <div class="details">
+                    <h3 class="name">{{home_data.profile_name}}</h3>
+                    {% if home_data.bio %}
+                    <p class="job">{{home_data.bio}}</p>
+                    {% endif %}
+                    <div class="social">
+                        <ul>
+                            <li><a href="{{home_data.social.facebook | relative_url}}"><img class="svg" src="{{'/assets/img/svg/social/facebook.svg' | relative_url}}" alt="" /></a>
+                            </li>
+                            <li><a href="{{home_data.social. twitter | relative_url}}"><img class="svg" src="{{'/assets/img/svg/social/twitter.svg' | relative_url}}" alt="" /></a></li>
+                            <li><a href="{{home_data.social.instagram | relative_url}}"><img class="svg" src="{{'/assets/img/svg/social/instagram.svg' | relative_url}}" alt="" /></a>
+                            </li>
+                            <li><a href="{{home_data.social.dribbble | relative_url}}"><img class="svg" src="{{'/assets/img/svg/social/dribbble.svg' | relative_url}}" alt="" /></a>
+                            </li>
+                            <li><a href="{{home_data.social.tiktok | relative_url}}"><img class="svg" src="{{'/assets/img/svg/social/tik-tok.svg' | relative_url}}" alt="" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /HOME -->

@@ -1,0 +1,323 @@
+/*
+Project     : Typofix
+Version     : 1.0.0
+Git URL     : https://github.com/themeix/typofix
+License     : GPL v2.0
+Last updated: 2020-10-36
+Author      : Themeix  - https://themeix.com
+*/
+
+.typofix { 
+    --background-color: #F3F6FA; 
+    --border-color: #DBE2F2;
+    --color: #404459;
+    --blockquote-color: rgba(0,0,0,.2);
+    --mark-color: rgba(0, 140, 255, 0.1);
+    line-height: 1.0;
+    text-rendering: optimizeLegibility;
+  }
+  
+  /*
+    Reset .typofix element styles to avoid unwanted inheritance
+  */
+  
+ 
+  .typofix * {
+    box-sizing: border-box;
+  }
+  
+ 
+  .typofix a, .typofix abbr, .typofix acronym, .typofix address, .typofix b, .typofix big, .typofix cite, .typofix code, .typofix del, .typofix em, .typofix i, .typofix ins, .typofix kbd, .typofix mark, .typofix output, .typofix q, .typofix ruby, .typofix s, .typofix samp, .typofix small, .typofix strike, .typofix strong, .typofix sub, .typofix sup, .typofix time, .typofix tt, .typofix u, .typofix var,
+  .typofix dfn, .typofix dl, .typofix dt, .typofix dd, .typofix ol, .typofix ul, .typofix li,
+  .typofix blockquote, .typofix h1, .typofix h2, .typofix h3, .typofix h4, .typofix h5, .typofix h6, .typofix p, .typofix pre,
+  .typofix table, .typofix caption, .typofix tbody, .typofix tfoot, .typofix thead, .typofix tr, .typofix th, .typofix td,
+  .typofix applet, .typofix canvas, .typofix embed, .typofix figure, .typofix figcaption, .typofix iframe, .typofix img, .typofix object {
+    background: transparent;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    line-height: 1.0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+  }
+  
+  /*
+    Baseline grid (for debugging baseline grid)
+  */
+  
+  .typofix.typofix-baseline {
+    background-image: linear-gradient(to bottom, magenta 0, rgba(255, 255, 255, 0) 1px);
+    background-repeat: repeat-y;
+    background-size: 100% 1.5em;
+  }
+  
+  /*
+    Initialize spacing and colors
+  */
+  
+  .typofix li, .typofix dt, .typofix dd, .typofix p, .typofix pre, .typofix caption, .typofix th, .typofix td, .typofix figcaption {
+    line-height: 1.5;
+  }
+  .typofix caption, .typofix dl, .typofix dd, .typofix div, .typofix figcaption, .typofix figure, .typofix h1, .typofix h2, .typofix h3, .typofix h4, .typofix h5, .typofix h6, .typofix p, .typofix pre, .typofix table, .typofix ol, .typofix ul {
+    margin: 0 0 1em 0;
+  }
+  .typofix blockquote, .typofix ol, .typofix ul {
+    margin-left: 2.5em;
+  }
+  .typofix code, .typofix pre, .typofix th {
+    background-color: #F3F6FA;
+    background-color: var(--background-color);
+  }
+  .typofix code, .typofix pre, .typofix th, .typofix td {
+    color: #324354;
+    color: var(--color);
+  }
+  .typofix pre, .typofix table, .typofix th, .typofix td {
+    border: 1px solid #DBE2F2;
+    border-color: var(--border-color);
+  }
+  
+  /*
+    Inline elements
+  */
+  
+  .typofix a {
+    text-decoration: underline;
+  }
+  .typofix strong, .typofix b {
+    font-weight: bolder;
+  }
+  .typofix u, .typofix em, .typofix i {
+    font-style: italic;
+    text-decoration: none;
+  }
+  .typofix abbr[title] {
+    border-bottom: 1px dotted gray;
+  }
+  .typofix address {
+    /* no style */
+  }
+  .typofix cite {
+    font-style: italic;
+  }
+  .typofix code {
+    /* background-color set above */
+    /* color set above */
+    font-family: monospace;
+    padding: 0.1em 0.2em;
+  }
+  .typofix dfn {
+    /* no style */
+  }
+  .typofix del {
+    color: red;
+    text-decoration: line-through;
+  }
+  .typofix ins {
+    color: green;
+    text-decoration: none;
+  }
+  .typofix kbd {
+	font-family: monospace;
+	color:inherit;
+  }
+  .typofix mark {
+    background-color: rgba(0, 140, 255, 0.1);
+    background-color: var(--mark-color);
+    color: black;
+  }
+  .typofix samp {
+    font-family: monospace;
+  }
+  .typofix small {
+    color: gray;
+    font-size: .75em;
+  }
+  .typofix s {
+    text-decoration: line-through;
+  }
+  .typofix sub {
+    font-size: 80%;
+    vertical-align: sub;
+  }
+  .typofix sup {
+    font-size: .75em;
+    vertical-align: super;
+  }
+  .typofix var {
+    font-style: italic;
+  }
+  
+  /*
+    Lists
+  */
+  
+  .typofix ol, .typofix ul {
+    /* margin set above */
+  }
+  .typofix ol ol, .typofix ul ul, .typofix ol ul, .typofix ul ol {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .typofix ol {
+    list-style: decimal;
+  }
+  .typofix ol ol {
+    list-style: lower-alpha;
+  }
+  .typofix ol ol ol {
+    list-style: lower-roman;
+  }
+  .typofix ol ol ol ol {
+    list-style: decimal;
+  }
+  .typofix ul {
+    list-style: default;
+  }
+  .typofix li {
+    /* line-height set above */
+  }
+  .typofix dl {
+    /* margin set above */
+  }
+  .typofix dt {
+    font-weight: bold;
+    /* line-height set above */
+  }
+  .typofix dd {
+    /* line-height set above */
+    margin-top: 0;
+  }
+  
+  /*
+    Block-level elements
+  */
+  
+  .typofix h1, .typofix h2, .typofix h3, .typofix h4, .typofix h5, .typofix h6 {
+    font-weight: bold;
+  }
+  .typofix h1 {
+    font-size: 2em;
+    line-height: 1.5;
+    margin: .75em 0 .75em 0;
+  }
+  .typofix h2 {
+    font-size: 1.5em;
+    line-height: 2;
+	margin: .75em 0 .75em 0;
+  }
+  .typofix h3 {
+    font-size: 1.25em;
+    line-height: 2.4;
+	margin: .75em 0 .75em 0;
+  }
+  .typofix h4 {
+    font-size: 1em;
+    line-height: 1.5;
+	margin: .75em 0 .75em 0;
+  }
+  .typofix h5 {
+    font-size: .75em;
+    line-height: 2;
+	margin: .75em 0 .75em 0;
+  }
+  .typofix h6 {
+    font-size: .75em;
+    font-weight: inherit;
+    line-height: 2;
+    margin: .75em 0 .75em 0;
+  }
+  .typofix p { 
+    /* line-height set above */
+    /* margin set above */
+  }
+  .typofix blockquote {
+    border-left: .2em solid rgba(0,0,0,.2);
+    border-left-color: var(--blockquote-color);
+    margin-left: .2em;
+	font-style: italic;
+	padding-left: .8em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+  }
+  .typofix-wysiwyg blockquote {
+    border-left: none;
+    margin-left: 3em;
+    opacity: 1;
+  }
+  .typofix pre {
+    /* background-color set above */
+    border-radius: 2px;
+    /* color set above */
+    display: block;
+    font-family: monospace;
+    font-size: .75em;
+    line-height: 2;
+    margin: 0 0 2em 0;
+    max-width: 100%;
+    overflow: scroll;
+    padding: calc(1em - 1px) 1.5em;
+    white-space: pre-wrap;
+  }
+  
+  /*
+    Tables
+  */
+  
+  .typofix table {
+    /* border set above */
+    border-collapse: collapse;
+    /* margin set above */
+    table-layout: auto;
+  }
+  .typofix caption {
+    caption-side: top;
+    font-weight: bold;
+    /* line-height set above */
+    /* margin set above */
+    margin-top: 0;
+    text-align: left;
+  }
+  .typofix thead {
+    /* no style */
+  }
+  .typofix tbody {
+    /* no style */
+  }
+  .typofix tfoot {
+    /* no style */
+  }
+  .typofix th, .typofix td {
+    /* border set above */
+    /* color set above */
+    /* line-height set above */
+    padding: calc(.75em - .5px);
+    text-align: left;
+  }
+  .typofix th {
+    /* background-color set above */
+    font-weight: normal;
+  }
+  .typofix td {
+    /* no style */
+  }
+  
+  /*
+    Media
+  */
+  
+  .typofix embed, .typofix iframe, .typofix img, .typofix object {
+    display: inline;
+    max-width: 100%;
+  }
+  .typofix figure {
+    max-width: 100%;
+    /* margin set above */
+  }
+  .typofix figcaption {
+    font-size: .75em;
+    line-height: 2;
+    /* margin set above */
+    text-align: left;
+  }

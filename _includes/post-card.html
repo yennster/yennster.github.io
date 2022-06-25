@@ -1,0 +1,48 @@
+{% assign author = site.authors | where: 'author_id', post.author_id | first %}
+<li class="tk-news-article">
+    <div class="list_inner">
+        <div class="image">
+            <img src="{{post.post_image | relative_url}}" alt="{{post.title}}" />
+            <div class="main" data-img-url="{{post.post_image | relative_url}}"></div>
+            <a class="tokyo_tm_full_link" href="{{post.url | relative_url}}"></a>
+        </div>
+        <div class="details">
+            <div class="extra">
+                <div class="short">
+                    <p class="date">By <a href="{{author.url | relative_url}}">{{author.name}}</a> <span>{{post.date | date: '%d %B %Y'}}</span></p>
+                </div>
+            </div>
+            <h3 class="title"><a href="{{post.url | relative_url}}">{{post.title}}</a></h3>
+            <div class="tokyo_tm_read_more">
+                <a href="{{post.url | relative_url}}"><span>Read More</span></a>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="descriptions typofix">
+                {{post.content}}
+            </div>
+            <div class="news_share">
+                <span>Share:</span>
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ post.url }}"
+                        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><img class="svg" src="{{'/assets/img/svg/social/facebook.svg' | relative_url}}" alt="" /></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/intent/tweet?text={{ post.url }}&url={{ site.url }}{{ site.baseurl }}{{ post.url }}"
+                        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><img class="svg" src="{{'/assets/img/svg/social/twitter.svg' | relative_url}}" alt="" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="svg" src="{{'/assets/img/svg/social/instagram.svg' | relative_url}}" alt="" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="svg" src="{{'/assets/img/svg/social/dribbble.svg' | relative_url}}" alt="" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="svg" src="{{'/assets/img/svg/social/tik-tok.svg' | relative_url}}" alt="" /></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</li>

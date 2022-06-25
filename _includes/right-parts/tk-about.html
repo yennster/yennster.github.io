@@ -1,0 +1,138 @@
+
+{% assign about_data = site.data.site_data[page.about_data] %}
+<!-- ABOUT -->
+<div id="about" class="tokyo_tm_section">
+    <div class="container">
+        <div class="tokyo_tm_about">
+            <div class="about_image">
+                <img src="{{about_data.img_src | relative_url}}" alt="{{about_data.title}}" />
+                <div class="main" data-img-url="{{about_data.img_src | relative_url}}"></div>
+            </div>
+            <div class="description">
+                <h3 class="name">{{about_data.title}}</h3>
+                <div class="description_inner">
+                    <div class="left">
+                        {% if about_data.description %}
+                            <p>{{about_data.description}}</p>
+                        {% endif %}
+
+                        <div class="tokyo_tm_button">
+                            <a href="#">{{about_data.learn_more}}</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li>
+                                <p><span>Birthday:</span>{{about_data.birthday}}</p>
+                            </li>
+                            <li>
+                                <p><span>Age:</span>{{about_data.age}}</p>
+                            </li>
+                            <li>
+                                <p><span>Address:</span>{{about_data.address}}</p>
+                            </li>
+                            <li>
+                                <p><span>Email:</span><a href="#">{{about_data.email}}</a></p>
+                            </li>
+                            <li>
+                                <p><span>Phone:</span><a href="#">{{about_data.phone}}</a></p>
+                            </li>
+                            <li>
+                                <p><span>Study:</span>{{about_data.study}}</p>
+                            </li>
+                            <li>
+                                <p><span>Freelance:</span>{{about_data.freelance}}</p>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /ABOUT -->
+
+<!-- MODALBOX ABOUT -->
+<div class="tokyo_tm_modalbox_about">
+    <div class="box_inner">
+        <div class="close">
+            <a href="#"><img class="svg" src="{{'/assets/img/svg/cancel.svg' | relative_url}}" alt="" /></a>
+        </div>
+        <div class="description_wrap scrollable">
+            <div class="my_box">
+                <div class="left">
+                    <div class="about_title">
+                        <h3>Photography Skills</h3>
+                    </div>
+                    <div class="tokyo_progress">
+                        {% for photography in about_data.photography %}
+                            <div class="progress_inner" data-value="{{photography.expertise}}">
+                                <span><span class="label">{{photography.title}}</span><span
+                                        class="number">{{photography.expertise}}%</span></span>
+                                <div class="background">
+                                    <div class="bar">
+                                        <div class="bar_in"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="about_title">
+                        <h3>Language Skills</h3>
+                    </div>
+                    <div class="tokyo_progress">
+                        {% for language in about_data.languages %}
+                            <div class="progress_inner" data-value="95">
+                                <span><span class="label">{{language.title}}</span><span class="number">{{language.expertise}}%</span></span>
+                                <div class="background">
+                                    <div class="bar">
+                                        <div class="bar_in"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="counter">
+                <div class="about_title">
+                    <h3>Fun Facts</h3>
+                </div>
+                <ul>
+                    <li>
+                        <div class="list_inner">
+                            <h3>{{about_data.project_completed}}</h3>
+                            <span>Projects Completed</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list_inner">
+                            <h3>{{about_data.happy_clients}}</h3>
+                            <span>Happy Clients</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list_inner">
+                            <h3>{{about_data.lines_of_code}}</h3>
+                            <span>Lines of Code</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="partners">
+                <div class="about_title">
+                    <h3>Our Partners</h3>
+                </div>
+                <ul class="owl-carousel">
+                    {% for partner in about_data.our_partners %}
+                        <li class="item"><a href="{{partner.url | relative_url}}"><img src="{{partner.img_src | relative_url}}" alt="{{partner.name}}" /></a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /MODALBOX ABOUT -->

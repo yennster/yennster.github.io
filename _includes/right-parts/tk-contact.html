@@ -1,0 +1,50 @@
+
+{% assign contact_data = site.data.site_data[page.contact_data] %}
+<!-- CONTACT -->
+<div id="contact" class="tokyo_tm_section">
+    <div class="container">
+        <div class="tokyo_tm_contact">
+            <div class="tokyo_tm_title">
+                <div class="title_flex">
+                    <div class="left">
+                        <span>Contact</span>
+                        <h3>{{contact_data.title}}</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="map_wrap">
+                <div class="map" id="ieatmaps"></div>
+            </div>
+            <div class="fields">
+                
+                <form action="https://formspree.io/mknqezny" method="POST" >
+                    <div class="returnmessage" data-success="Your message has been received, We will contact you soon.">
+                    </div>
+                    <div class="empty_notice"><span>Please Fill Required Fields</span></div>
+                    <div class="first">
+                        <ul>
+                            <li>
+                                <input id="name" name="Name" type="text" placeholder="Name">
+                            </li>
+                            <li>
+                                <input id="email" name="Email" type="email" placeholder="Email">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="last">
+                        <textarea id="message" name="Message" placeholder="Message"></textarea>
+                    </div>
+                    <div class="tokyo_tm_button" data-position="left">
+                        <button id="send_message" type="submit">
+                            <span>Send Message</span>
+                        </button>
+                    </div>
+
+                    <!-- If you want to change mail address to yours, please open modal.php and go to line 4 -->
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /CONTACT -->
