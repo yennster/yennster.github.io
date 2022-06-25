@@ -10,7 +10,7 @@
                         <span>Portfolio</span>
                         <h3>{{portfolio_data.title}}</h3>
                     </div>
-                    <div class="portfolio_filter">
+                    <!--<div class="portfolio_filter">
                         <ul>
                             <li><a href="#" class="current" data-filter="*">All</a></li>
                             <li><a href="#" data-filter=".vimeo">Vimeo</a></li>
@@ -18,14 +18,14 @@
                             <li><a href="#" data-filter=".soundcloud">Soundcloud</a></li>
                             <li><a href="#" data-filter=".image">Image</a></li>
                         </ul>
-                    </div>
+                    </div>-->
                 </div>
             </div>
             <div class="list_wrapper">
                 <ul class="portfolio_list gallery_zoom">
                     {% for portfolio in site.data.portfolio %}
 
-                        {% assign protCat = portfolio.cat | slugify %}
+                        <!--{% assign protCat = portfolio.cat | slugify %}
                         {% if protCat == 'youtube' %}
                             {% assign popClass = 'popup-youtube' %}
                         {% elsif protCat == 'vimeo'%}
@@ -34,9 +34,9 @@
                             {% assign popClass = 'soundcloude_link mfp-iframe audio' %}
                         {% elsif protCat == 'image'%}
                             {% assign popClass = 'zoom' %}
-                        {% endif %}
+                        {% endif %} -->
 
-                        <li class="{{portfolio.filter_classes}}">
+                        <!--<li class="{{portfolio.filter_classes}}">
                             <div class="inner">
                                 <div class="entry tokyo_tm_portfolio_animation_wrap" data-title="{{portfolio.name}}"
                                     data-category="{{portfolio.cat | capitalize}}">
@@ -47,7 +47,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </li>
+                        </li> -->
                     {% endfor %}
                 </ul>
             </div>
