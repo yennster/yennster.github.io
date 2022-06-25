@@ -12,11 +12,12 @@
                     </div>
                     <div class="portfolio_filter">
                         <ul>
-                            <li><a href="#" class="current" data-filter="*">All</a></li>
-                            <li><a href="#" data-filter=".vimeo">Vimeo</a></li>
-                            <li><a href="#" data-filter=".youtube">Youtube</a></li>
-                            <li><a href="#" data-filter=".soundcloud">Soundcloud</a></li>
-                            <li><a href="#" data-filter=".image">Image</a></li>
+                            <li><a href="#" class="current" data-filter="*">all</a></li>
+                            <li><a href="#" data-filter=".webinar">webinar</a></li>
+                            <li><a href="#" data-filter=".documentation">documentation</a></li>
+                            <li><a href="#" data-filter=".blog">blog</a></li>
+                            <li><a href="#" data-filter=".video">video</a></li>
+                            <li><a href="#" data-filter=".tutorial">tutorial</a></li>
                         </ul>
                     </div>
                 </div>
@@ -27,7 +28,7 @@
                     {% for portfolio in site.data.portfolio %}
 
                         {% assign protCat = portfolio.cat | slugify %}
-                        {% if protCat == 'youtube' %}
+                        {% if protCat == 'video' %}
                             {% assign popClass = 'popup-youtube' %}
                         {% elsif protCat == 'vimeo'%}
                             {% assign popClass = 'popup-vimeo' %}

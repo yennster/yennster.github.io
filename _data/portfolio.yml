@@ -4,20 +4,20 @@
   filter_classes: 'webinar'
   cat: webinar
 
-- name: Ross Taylor
-  img_src: /assets/img/portfolio/2.jpg
-  project_url: https://www.youtube.com/watch?v=Amq-qlqbjYA
-  filter_classes: 'youtube'
-  cat: YouTube
+- name: Arm Innovation Coffee Chat
+  img_src: 
+  project_url: https://www.youtube.com/watch?v=eOF3NA0Me7Q
+  filter_classes: 'video'
+  cat: video
 
-- name: David Smith 
-  img_src: /assets/img/portfolio/3.jpg
-  project_url: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/252739311&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-  filter_classes: 'soundcloud'
-  cat: SoundCloud
+- name: Embedded machine learning with TI LaunchPad™ development kits & Edge Impulse
+  img_src: 
+  project_url: https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&mode=login&loginemail=o-loera%40ti.com&eventid=2996419&sessionid=1&key=30161E260D75AB000445DD4A5C855DEE&regTag=&V2=false&sourcepage=register
+  filter_classes: 'webinar'
+  cat: webinar
 
-- name: Kiron Polard 
-  img_src: /assets/img/portfolio/4.jpg
-  project_url: /assets/img/portfolio/3.jpg
-  filter_classes: 'youtube'
-  cat: Image
+- name: Using Doppler Radar for Gesture Recognition with the Infineon Sense2GoL-Pulse
+  img_src: 
+  project_url: https://www.edgeimpulse.com/blog/infineon-sense2gol-pulse
+  filter_classes: 'tutorial'
+  cat: tutorial
