@@ -11,7 +11,8 @@ The University of Texas at Austin, May 2018
 [View my resume!](/resume)
 
 #### Work Experience
-User Success Engineer @ [Edge Impulse](http://edgeimpulse.com/) (November 2020 - Present)  
+Senior Developer Relations Engineer @ [Edge Impulse](http://edgeimpulse.com/) (November 2021 - Present)  
+User Success Engineer @ [Edge Impulse](http://edgeimpulse.com/) (November 2020 - November 2021)  
 Applications Engineer @ [Arm](http://www.arm.com/) (November 2018 - October 2020)  
 Graduate Software Engineer @ [Arm](http://www.arm.com/) (June 2018 - November 2018)  
 Internet of Things Intern @ [Arm](http://www.arm.com/) (May 2017 - May 2018)  
@@ -21,13 +22,15 @@ Senior Student Associate @ [UT Service Desk](https://www.utexas.edu/its/helpdesk
 Disney College Program Intern @ [Walt Disney World](https://jobs.disneycareers.com/disney-college-program) (February 2015 - May 2015)  
 
 #### Leadership Experience
-President of [IEEE Computer Society Student Branch](http://ieeecs.ece.utexas.edu) (May 2015 - August 2016)     
-Secretary of [IEEE Computer Society Student Branch](http://ieeecs.ece.utexas.edu) (August 2014 - May 2015)  
+Meetup Committee Member of [TinyML.org](https://tinyml.org/) (January 2022 - Present)  
+President of [IEEE Computer Society - UT Austin Student Branch](http://ieeecs.ece.utexas.edu) (May 2015 - August 2016)  
+Secretary of [IEEE Computer Society - UT Austin Student Branch](http://ieeecs.ece.utexas.edu) (August 2014 - May 2015)  
 
-#### Involvement
+#### Community Involvement
+Provisional Member of [The Junior League of Austin](https://www.jlaustin.org/) (March 2020 - September 2021)  
 Member of [IEEE Main Student Branch](http://ieee.ece.utexas.edu) (Fall 2013 - May 2018)  
 Member of [Women in Electrical & Computer Engineering](http://utwece.org/) (Fall 2013 - May 2018)  
-Member of [The University of Texas Longhorn Band](https://lhb.music.utexas.edu/) (August 2013 - July 2014)  
+Member of [The University of Texas Longhorn Band](https://lhb.music.utexas.edu/) (August 2013 - July 2014)
 
 <span class="contacticon center">
 	<a href="mailto:jplunkett@utexas.edu"><i class="fa fa-envelope-square"></i></a>
