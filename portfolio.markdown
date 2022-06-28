@@ -38,7 +38,7 @@ title: portfolio
 
 ### O'Reilly Media
 
-* Book - ["AI at the Edge" by Daniel Situnayake & Jenny Plunkett](https://www.oreilly.com/library/view/ai-at-the/9781098120191/)
+* Book — ["AI at the Edge" by Daniel Situnayake & Jenny Plunkett](https://www.oreilly.com/library/view/ai-at-the/9781098120191/)
 
 ### Edge Impulse
 
