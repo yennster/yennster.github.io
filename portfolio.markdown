@@ -3,7 +3,7 @@ layout: resume
 title: portfolio
 ---
 
-## Recorded Webinars, Workshops, Tutorials, & Interviews
+## Webinars, Workshops, Tutorials, & Interviews
 
 * December 2020 — Element14: [Introduction to TinyML by Edge Impulse](https://www.element14.com/community/events/5674/l/introduction-to-tinyml-by-edge-impulse)
     * Winner of Element14’s [“Favorite Webinar of Year 2020”](https://www.element14.com/community/docs/DOC-96165/l/2020-year-in-review-awards-the-winners#webinar)
@@ -28,6 +28,7 @@ title: portfolio
 * April 2022 — Danish Sound Cluster: [Edge Impulse for Consumer Audio Applications](https://danishsoundcluster.dk/edge-impulse-for-consumer-audio-applications/)
 * April 2022 — IoT Central: [Classify Non-Human Voice Audio for Automation and Embedded Machine Learning](https://www.iotcentral.io/videos/classify-non-human-voice-audio-for-automation-and-embedded-ml)
 * May 2022 — IoT Central: [Create Real-Time Object Detection on Low-Power Microcontrollers](https://www.iotcentral.io/videos/create-real-time-object-detection-on-low-power-microcontrollers)
+* May 2022 — Embedded Vision Summit: [Edge Impulse Deep Dive Session, FOMO: Real-Time Object Detection on Low-Power Microcontrollers](https://embeddedvisionsummit.com/edge-impulse-deep-dive/)
 * June 2022 — Danish Sound Cluster: [Keyword detection ESP32 Workshop](https://danishsoundcluster.dk/keyword-detection-esp32/)
 * June 2022 — Embedded Vision Summit: [Edge Impulse Demonstration of Screw and Washer Detection with FOMO](https://www.youtube.com/watch?v=YmBWmXDLIdY)
 * June 2022 — Embedded Vision Summit: [Edge Impulse Demonstration of Wildlife Monitoring with Sony Spresense](https://www.youtube.com/watch?v=nbxdRnQ7wew)
