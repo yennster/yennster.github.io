@@ -23,6 +23,7 @@ title: portfolio
 * November 2021 — Google TensorFlow: [TensorFlow ML Community Day: Building Machine Learning models with Edge Impulse](https://www.youtube.com/watch?v=gw1E5JZTim0)
 * November 2021 — IoT Central & Arduino PRO: [Factory 5.0: ML-Powered Manufacturing Workshop](https://register.gotowebinar.com/register/4284862102840899596?source=IoTCMC)
 * December 2021 — Adobe ColdFusion Summit: [The Dawn of Machine Learning, AI and You](https://cfsummit.vconfex.com/event/adobe-coldfusion-summit-2021_/1290?redirect=1#category=6&module=28150)
+* February 2022 — TinyML Talks: [Advanced Anomaly Detection Made Easy](https://forums.tinyml.org/t/tinyml-talks-on-february-15-2022-advanced-anomaly-detection-made-easy-by-jenny-plunkett/776)
 * February 2022 — Element14: [Machine Learning & Sensor Fusion Make Smart Cities, Smarter!](https://community.element14.com/learn/events/c/e/1575)
 * April 2022 — Danish Sound Cluster: [Edge Impulse for Consumer Audio Applications](https://danishsoundcluster.dk/edge-impulse-for-consumer-audio-applications/)
 * April 2022 — IoT Central: [Classify Non-Human Voice Audio for Automation and Embedded Machine Learning](https://www.iotcentral.io/videos/classify-non-human-voice-audio-for-automation-and-embedded-ml)
@@ -32,7 +33,10 @@ title: portfolio
 * June 2022 — Embedded Vision Summit: [Edge Impulse Demonstration of Wildlife Monitoring with Sony Spresense](https://www.youtube.com/watch?v=nbxdRnQ7wew)
 * June 2022 — Tutorial: [Getting Started with the Arduino Nicla Sense ME and Edge Impulse
 ](https://www.youtube.com/watch?v=dj-2T8DVtSg)
-* July 2022 — AMA: [Edge Impulse MLOps AMA](https://www.youtube.com/watch?v=ponZ2ahE3uQ)
+* July 2022 — Ask Me Anything: [Edge Impulse MLOps AMA](https://www.youtube.com/watch?v=ponZ2ahE3uQ)
+* August 2022 — Sony: [Edge Impulse's FOMO Technology and Sony's Computer Vision Platform: A Compelling Combination](https://register.gotowebinar.com/register/5240104617063188491)
+* September 2022 — Grace Hopper Celebration 2022: [Kickstart Your Career in Edge AI: Design, Train and Deploy an ML Model in Under an Hour](https://ghc.anitab.org/ghc-22-agenda/)
+* September 2022 — Edge AI Summit: [Workshop](https://www.edgeaisummit.com/events/edge-ai-summit)
 
 ## Technical Writing Samples
 
