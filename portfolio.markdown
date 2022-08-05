@@ -27,6 +27,7 @@ title: portfolio
 * February 2022 — Element14: [Machine Learning & Sensor Fusion Make Smart Cities, Smarter!](https://community.element14.com/learn/events/c/e/1575)
 * April 2022 — Danish Sound Cluster: [Edge Impulse for Consumer Audio Applications](https://danishsoundcluster.dk/edge-impulse-for-consumer-audio-applications/)
 * April 2022 — IoT Central: [Classify Non-Human Voice Audio for Automation and Embedded Machine Learning](https://www.iotcentral.io/videos/classify-non-human-voice-audio-for-automation-and-embedded-ml)
+* April 2022 — Embedded Vision Summit: [Deep Dive Session Interview: Edge Impulse](https://www.youtube.com/watch?v=S4JZ7rZSmIs)
 * May 2022 — IoT Central: [Create Real-Time Object Detection on Low-Power Microcontrollers](https://www.iotcentral.io/videos/create-real-time-object-detection-on-low-power-microcontrollers)
 * May 2022 — Embedded Vision Summit: [Edge Impulse Deep Dive Session, FOMO: Real-Time Object Detection on Low-Power Microcontrollers](https://embeddedvisionsummit.com/edge-impulse-deep-dive/)
 * June 2022 — Danish Sound Cluster: [Keyword detection ESP32 Workshop](https://danishsoundcluster.dk/keyword-detection-esp32/)
@@ -35,8 +36,9 @@ title: portfolio
 * June 2022 — Tutorial: [Getting Started with the Arduino Nicla Sense ME and Edge Impulse
 ](https://www.youtube.com/watch?v=dj-2T8DVtSg)
 * July 2022 — Ask Me Anything: [Edge Impulse MLOps AMA](https://www.youtube.com/watch?v=ponZ2ahE3uQ)
-* August 2022 — Sony: [Edge Impulse's FOMO Technology and Sony's Computer Vision Platform: A Compelling Combination](https://register.gotowebinar.com/register/5240104617063188491)
-* September 2022 — Grace Hopper Celebration 2022: [Kickstart Your Career in Edge AI: Design, Train and Deploy an ML Model in Under an Hour](https://ghc.anitab.org/ghc-22-agenda/)
+* August 2022 — Edge AI + Vision Alliance: [Edge Impulse's FOMO Technology and Sony's Computer Vision Platform: A Compelling Combination](https://register.gotowebinar.com/register/5240104617063188491)
+* August 2022 — Topio Networks: Edge Impulse's FOMO
+* September 2022 — Grace Hopper Celebration 2022 Level-Up Lab: [Kickstart Your Career in Edge AI: Design, Train and Deploy an ML Model in Under an Hour](https://ghc.anitab.org/ghc-22-agenda/)
 * September 2022 — Edge AI Summit: [Workshop](https://www.edgeaisummit.com/events/edge-ai-summit)
 
 ## Technical Writing Samples
