@@ -31,21 +31,22 @@ title: portfolio
 * May 2022 — IoT Central: [Create Real-Time Object Detection on Low-Power Microcontrollers](https://www.iotcentral.io/videos/create-real-time-object-detection-on-low-power-microcontrollers)
 * May 2022 — Embedded Vision Summit: [Edge Impulse Deep Dive Session, FOMO: Real-Time Object Detection on Low-Power Microcontrollers](https://embeddedvisionsummit.com/edge-impulse-deep-dive/)
 * June 2022 — Danish Sound Cluster: [Keyword detection ESP32 Workshop](https://danishsoundcluster.dk/keyword-detection-esp32/)
-* June 2022 — Embedded Vision Summit: [Edge Impulse Demonstration of Screw and Washer Detection with FOMO](https://www.youtube.com/watch?v=YmBWmXDLIdY)
-* June 2022 — Embedded Vision Summit: [Edge Impulse Demonstration of Wildlife Monitoring with Sony Spresense](https://www.youtube.com/watch?v=nbxdRnQ7wew)
+* June 2022 — Embedded Vision Summit: [Edge Impulse Demonstration of Screw and Washer Detection with FOMO](https://www.edge-ai-vision.com/2022/09/edge-impulse-demonstration-of-screw-and-washer-detection-with-fomo/)
+* June 2022 — Embedded Vision Summit: [Edge Impulse Demonstration of Wildlife Monitoring with Sony Spresense](https://www.edge-ai-vision.com/2022/09/edge-impulse-demonstration-of-wildlife-monitoring-with-sony-spresense/)
 * June 2022 — Tutorial: [Getting Started with the Arduino Nicla Sense ME and Edge Impulse
 ](https://www.youtube.com/watch?v=dj-2T8DVtSg)
 * July 2022 — Ask Me Anything: [Edge Impulse MLOps AMA](https://www.youtube.com/watch?v=ponZ2ahE3uQ)
 * August 2022 — Edge AI + Vision Alliance: [Edge Impulse's FOMO Technology and Sony's Computer Vision Platform: A Compelling Combination](https://register.gotowebinar.com/register/5240104617063188491)
-* August 2022 — Topio Networks: Edge Impulse's FOMO
+* August 2022 — Topio Networks: [Deploying Vision-Based Models on Highly Constrained Devices](https://www.topionetworks.com/events/62ed4424a20d485bb2dca42a)
 * September 2022 — Grace Hopper Celebration 2022 Level-Up Lab: [Kickstart Your Career in Edge AI: Design, Train and Deploy an ML Model in Under an Hour](https://ghc.anitab.org/ghc-22-agenda/)
-* September 2022 — Edge AI Summit: [Workshop](https://www.edgeaisummit.com/events/edge-ai-summit)
+* September 2022 - Silicon Labs WorksWith: [AIML-301 Enabling Continuous Learning for ML-based Anomaly Detection at the Edge](https://workswith.silabs.com/agenda/session/896404)
+* September 2022 — Kisaco Research Edge AI Summit: [Developer Workshop: Real-Time Object Detection for Factory 4.0](https://www.kisacoresearch.com/edge-ai-summit-2022-agenda#developer-workshop-real-time-object-detection-for-factory-40-%E2%80%93-free-by-application)
 
 ## Technical Writing Samples
 
 ### O'Reilly Media
 
-* Book — ["AI at the Edge" by Daniel Situnayake & Jenny Plunkett](https://www.oreilly.com/library/view/ai-at-the/9781098120191/)
+* Book — [AI at the Edge: Solving Real World Problems with Embedded Machine Learning by Daniel Situnayake & Jenny Plunkett](https://www.oreilly.com/library/view/ai-at-the/9781098120191/)
 
 ### Edge Impulse
 
