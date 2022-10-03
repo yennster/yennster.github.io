@@ -64,6 +64,7 @@ title: portfolio
 * Blog — [3 Ways to Do AI-Assisted Labeling for Object Detection](https://www.edgeimpulse.com/blog/3-ways-to-do-ai-assisted-labeling-for-object-detection)
 * Blog — [Rapidly Develop Machine Learning Models for Edge Applications Over BLE](https://www.edgeimpulse.com/blog/rapidly-develop-machine-learning-models-for-edge-applications-over-ble)
 * Blog — [Announcing Official Support for the Arduino Nicla Sense ME](https://www.edgeimpulse.com/blog/announcing-official-support-for-the-arduino-nicla-sense-me)
+* Blog — [Announcing Official Support for the Infineon CY8CKIT-062S2 Pioneer Kit](https://www.edgeimpulse.com/blog/announcing-official-support-for-the-infineon-cy8ckit-062s2-pioneer-kit)
 * Documentation — [Getting Started with Arduino Nicla Sense ME](https://docs.edgeimpulse.com/docs/development-platforms/officially-supported-mcu-targets/arduino-nicla-sense-me)
 * Documentation — [Getting Started with Nordic Semi Thingy:53 & nRF Edge Impulse App](https://docs.edgeimpulse.com/docs/development-platforms/officially-supported-mcu-targets/nordic-semi-thingy53)
 * Documentation — [Getting Started with Sony's Spresense](https://docs.edgeimpulse.com/docs/sony-spresense)
