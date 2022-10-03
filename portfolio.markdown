@@ -41,6 +41,7 @@ title: portfolio
 * September 2022 — Grace Hopper Celebration 2022 Level-Up Lab: [Kickstart Your Career in Edge AI: Design, Train and Deploy an ML Model in Under an Hour](https://ghc.anitab.org/ghc-22-agenda/)
 * September 2022 - Silicon Labs WorksWith: [AIML-301 Enabling Continuous Learning for ML-based Anomaly Detection at the Edge](https://workswith.silabs.com/agenda/session/896404)
 * September 2022 — Kisaco Research Edge AI Summit: [Developer Workshop: Real-Time Object Detection for Factory 4.0](https://www.kisacoresearch.com/edge-ai-summit-2022-agenda#developer-workshop-real-time-object-detection-for-factory-40-%E2%80%93-free-by-application)
+* October 2022 — IoT Central: Advanced Sensor Anomaly Detection
 
 ## Technical Writing Samples
 
