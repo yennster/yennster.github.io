@@ -39,7 +39,7 @@ title: portfolio
 * August 2022 — Edge AI + Vision Alliance: [Edge Impulse's FOMO Technology and Sony's Computer Vision Platform: A Compelling Combination](https://register.gotowebinar.com/register/5240104617063188491)
 * August 2022 — Topio Networks: [Deploying Vision-Based Models on Highly Constrained Devices](https://www.topionetworks.com/events/62ed4424a20d485bb2dca42a)
 * September 2022 — Grace Hopper Celebration 2022 Level-Up Lab: [Kickstart Your Career in Edge AI: Design, Train and Deploy an ML Model in Under an Hour](https://ghc.anitab.org/ghc-22-agenda/)
-* September 2022 - Silicon Labs WorksWith: [AIML-301 Enabling Continuous Learning for ML-based Anomaly Detection at the Edge](https://workswith.silabs.com/agenda/session/896404)
+* September 2022 — Silicon Labs WorksWith: [AIML-301 Enabling Continuous Learning for ML-based Anomaly Detection at the Edge](https://workswith.silabs.com/agenda/session/896404)
 * September 2022 — Kisaco Research Edge AI Summit: [Developer Workshop: Real-Time Object Detection for Factory 4.0](https://www.kisacoresearch.com/edge-ai-summit-2022-agenda#developer-workshop-real-time-object-detection-for-factory-40-%E2%80%93-free-by-application)
 * October 2022 — IoT Central: Advanced Sensor Anomaly Detection
 
